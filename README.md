@@ -26,10 +26,10 @@ TuRTLe is a framework to assess LLMs across key RTL generation tasks systematica
 <div align="center">
 <table>
 <tr>
-<td>
+<td valign="top">
 
 | **Benchmarks** |
-|:---------------|
+|:--------------:|
 | **VerilogEval v2.0** - Spec-to-RTL & Module Completion |
 | **RTLLM v1.1/v2.0** - Spec-to-RTL |
 | **VGen** - Module Completion |
@@ -37,15 +37,13 @@ TuRTLe is a framework to assess LLMs across key RTL generation tasks systematica
 | **NotSoTiny** - Module Completion |
 
 </td>
-<td>
+<td valign="top">
 
 | **EDA Tools & Metrics** |
-|:------------------------|
+|:-----------------------:|
 | **Icarus Verilog** and **Verilator** - STX & FNC |
-| **Yosys** - SYN |
-| **Yosys** - EQV |
-| **LibreLane** - PPA |
-| **OpenROAD** - PPA |
+| **Yosys** - SYN and EQV|
+| **LibreLane (OpenROAD)** - PPA |
 
 </td>
 </tr>
