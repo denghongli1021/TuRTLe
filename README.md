@@ -24,16 +24,32 @@
 TuRTLe is a framework to assess LLMs across key RTL generation tasks systematically. It integrates multiple existing benchmarks and automates the evaluation process, enabling a comprehensive assessment of LLM performance in syntax correctness, functional correctness, synthesis, PPA optimization, and exact line completion.
 
 <div align="center">
+<table>
+<tr>
+<td>
 
-| **Benchmarks** | **EDA Tools** and **Metrics** |
-|----------------|---------------|
-| **VerilogEval v2.0** - Spec-to-RTL & Module Completion | **Icarus Verilog** and **Verilator** - STX & FNC |
-| **RTLLM v1.1/v2.0** - Spec-to-RTL | **Yosys** - SYN |
-| **VGen** - Module Completion | **Yosys** - EQV |
-| **RTL-Repo** - Single Line Completion | **LibreLane** - PPA |
-| **NotSoTiny** - Module Completion | **OpenROAD** - PPA   |
+| **Benchmarks** |
+|:---------------|
+| **VerilogEval v2.0** - Spec-to-RTL & Module Completion |
+| **RTLLM v1.1/v2.0** - Spec-to-RTL |
+| **VGen** - Module Completion |
+| **RTL-Repo** - Single Line Completion |
+| **NotSoTiny** - Module Completion |
 
+</td>
+<td>
 
+| **EDA Tools & Metrics** |
+|:------------------------|
+| **Icarus Verilog** and **Verilator** - STX & FNC |
+| **Yosys** - SYN |
+| **Yosys** - EQV |
+| **LibreLane** - PPA |
+| **OpenROAD** - PPA |
+
+</td>
+</tr>
+</table>
 </div>
 
 For more details about the framework, refer to the associated [TuRTLe paper](https://arxiv.org/abs/2504.01986). For details on the NotSoTiny benchmark, see the corresponding [paper](https://arxiv.org/abs/2512.20823).
