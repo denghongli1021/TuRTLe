@@ -135,6 +135,21 @@ The process to implement a benchmark is very similar to the one described by [bi
       location = {Santa Cruz, CA, USA},
       url={https://arxiv.org/abs/2504.01986}, 
 }
+
+@article{10.1145/3831369,
+author = {Alberti-Binimelis, Miquel and Gutierrez-Gomez, Cristian and Garcia-Gasulla, Dario and Parisi, Emanuele and Moundir Ghorab, Razine and Montenegro, Orlando and Homs, Bernat and Moreto, Miquel and Kestor, Gokcen},
+title = {Revisiting TuRTLe: A Comprehensive Evaluation of LLMs for RTL Generation},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1084-4309},
+url = {https://doi.org/10.1145/3831369},
+doi = {10.1145/3831369},
+note = {Just Accepted},
+journal = {ACM Trans. Des. Autom. Electron. Syst.},
+month = jul,
+keywords = {Large Language Models (LLMs), Benchmarking, Computer-aided design (CAD)}
+}
 ```
 
 ## Contact
