@@ -1,0 +1,178 @@
+===============================================================================
+                       TuRTLe 評測框架 CLI 參數完整說明手冊
+===============================================================================
+
+【1. 基本任務與工作流設定 (Basic & Workflow Arguments)】
+-------------------------------------------------------------------------------
+--tasks TASKS
+    * 預設值: None
+    * 說明: 指定要執行的基準測試任務（例如：rtllm, verilog_eval_rtl, verilog_eval_cc, verigen）。
+
+--model MODEL
+    * 預設值: None
+    * 說明: 指定模型名稱或本地路徑（例如：qwen2.5-coder:7b 或 HuggingFace 模型 ID）。
+
+--simulator SIMULATOR
+    * 預設值: icarus
+    * 說明: EDA 仿真評測使用的模擬器，可填寫 `icarus` (iverilog) 或 `verilator`。
+
+--use_api [True/False]
+    * 預設值: False
+    * 說明: 是否強制開啟 API 推論模式。啟用時會透過 OpenAI 相容 API (如 Ollama/OpenRouter) 連線。
+
+--provider PROVIDER
+    * 預設值: None
+    * 說明: 在 API 模式下（如使用 OpenRouter）指定強制使用的模型提供商（例如：'google-vertex', 'OpenAI'）。
+
+--reasoning_effort REASONING_EFFORT
+    * 預設值: None
+    * 說明: 支援思考 Token 的 API 模型推論強度選擇（可選 'low', 'medium', 'high'）。
+
+--limit LIMIT
+    * 預設值: None
+    * 說明: 限制僅評測 benchmark 中的前 N 個樣本（用於快速測試/Debug）。
+
+--limit_start LIMIT_START
+    * 預設值: 0
+    * 說明: 使用 --limit 時，指定開始抽樣的起始偏移量（Offset）。
+
+
+【2. 模型生成與採樣設定 (Generation & Sampling Arguments)】
+-------------------------------------------------------------------------------
+--temperature TEMPERATURE
+    * 預設值: 0.2
+    * 說明: 控制採樣隨機性的溫度參數。小於 1e-5 時會自動切換為貪婪模式 (Greedy Search)。
+
+--top_p TOP_P
+    * 預設值: 0.95
+    * 說明: Nucleus Sampling 的累積機率閾值。
+
+--top_k TOP_K
+    * 預設值: 0 (或 API 模式下 -1 代表停用)
+    * 說明: Top-k 採樣限制。設定大於等於 1 的整數以啟用。
+
+--n_samples N_SAMPLES
+    * 預設值: 1
+    * 說明: 每個測試題目要讓模型產出的程式碼候選份數（用於計算 Pass@k）。
+
+--max_length_generation MAX_LENGTH_GENERATION
+    * 預設值: 512
+    * 說明: 生成序列的最大總長度（包含 Prompt + 生成內容）。
+
+--max_tokens MAX_TOKENS
+    * 預設值: None
+    * 說明: 模型單次輸出允許產出的最大 Token 數量上限。
+
+--prefix PREFIX
+    * 預設值: ""
+    * 說明: 附加在 Prompt 開頭的前綴文字。
+
+--eos EOS
+    * 預設值: "<|endoftext|>"
+    * 說明: 結束字元 (End of Sentence Token)。
+
+--repetition_penalty REPETITION_PENALTY
+    * 預設值: 1.0
+    * 說明: 懲罰重複出現 Token 的係數（> 1.0 鼓勵生成新詞，< 1.0 鼓勵重複）。
+
+--frequency_penalty FREQUENCY_PENALTY
+    * 預設值: 0.0
+    * 說明: 根據 Token 出現頻率給予懲罰的係數（> 0 鼓勵生成新詞）。
+
+--presence_penalty PRESENCE_PENALTY
+    * 預設值: 0.0
+    * 說明: 根據 Token 是否曾出現給予懲罰的係數（> 0 鼓勵生成新詞）。
+
+--seed SEED
+    * 預設值: 0
+    * 說明: 評測與生成的隨機數種子。
+
+
+【3. 模型加載與 Tokenizer 設定 (Model & Tokenizer Arguments)】
+-------------------------------------------------------------------------------
+--precision PRECISION
+    * 預設值: bf16
+    * 說明: 本地模型載入精度，可選：fp32, fp16, 或 bf16。
+
+--tokenizer TOKENIZER
+    * 預設值: None
+    * 說明: 指定獨立的 Tokenizer 路徑（預設使用與模型相同的 Tokenizer）。
+
+--left_padding [True/False]
+    * 預設值: False
+    * 說明: 強制對輸入進行左側填補 (Left Padding)，某些模型（如 chatglm3-6b）需要開啟。
+
+--trust_remote_code [True/False]
+    * 預設值: True
+    * 說明: 是否允許載入來自 Hugging Face 模型的自訂 Python 程式碼。
+
+--use_auth_token [True/False]
+    * 預設值: True
+    * 說明: 載入私有模型時是否使用 `huggingface-cli login` 的驗證 Token。
+
+
+【4. 評測流程與檔案輸出 (Evaluation & Output Arguments)】
+-------------------------------------------------------------------------------
+--generation_only [True/False]
+    * 預設值: False
+    * 說明: 設定為 True 時「只進行代碼生成」，生成完存檔後即結束，不執行 Docker EDA 評測。
+
+--load_generations_path LOAD_GENERATIONS_PATH
+    * 預設值: None
+    * 說明: 指定已生成的 `.jsonl` 檔案路徑。若提供此參數，系統會跳過生成階段，直奔 Docker 評測。
+
+--save_generations [True/False]
+    * 預設值: True
+    * 說明: 是否將模型生成的代碼儲存成檔案。
+
+--save_generations_path SAVE_GENERATIONS_PATH
+    * 預設值: /tmp/generations.json
+    * 說明: 指定生成代碼檔案 (.jsonl) 的儲存路徑。
+
+--generate_report [True/False]
+    * 預設值: None
+    * 說明: 是否生成逐題 Pass/Fail 的詳細報告檔案 (detailed_report.json / summary_report.csv)。
+
+--metric_output_path METRIC_OUTPUT_PATH
+    * 預設值: /tmp/evaluation_results.json
+    * 說明: 指定最終評測總分 JSON 檔案的輸出路徑。
+
+--rtllm_version RTLLM_VERSION
+    * 預設值: 2.0
+    * 說明: 指定 RTLLM benchmark 的版本（可選 2.0 或 1.1）。
+
+--allow_code_execution [True/False]
+    * 預設值: True
+    * 說明: 是否允許在本地/Docker 容器中執行外部 Python / EDA 測試程式碼。
+
+--postprocess [True/False]
+    * 預設值: True
+    * 說明: 是否在執行前對模型的輸出進行後處理（清理 Markdown 標籤等）。
+
+--few_shot FEW_SHOT
+    * 預設值: 0
+    * 說明: 用於 VerilogEval 任務的 Few-shot 提示範例數量。
+
+
+【5. vLLM 本地推理加速設定 (vLLM Engine Arguments)】
+-------------------------------------------------------------------------------
+--gpu_memory_utilization GPU_MEMORY_UTILIZATION
+    * 預設值: 0.9
+    * 說明: 預留給 vLLM 的 GPU 顯存 (VRAM) 比例（0.9 代表使用 90% 顯存）。
+
+--swap_space SWAP_SPACE
+    * 預設值: 64
+    * 說明: 為 vLLM 預留作為 GPU Page 交換空間的 CPU 系統記憶體 (RAM) 大小 (GB)。
+
+--tensor_parallel_size TENSOR_PARALLEL_SIZE
+    * 預設值: 4
+    * 說明: 張量並行 (Tensor Parallel) 的 GPU 數量（用於多卡推論）。
+
+--sequence_length_limit SEQUENCE_LENGTH_LIMIT
+    * 預設值: None
+    * 說明: 限制 vLLM 捕捉的最大序列長度，可用於控制長上下文模型（如 Llama-3.1, Qwen-2）的記憶體佔用。
+
+--ip IP / --port PORT
+    * 預設值: None / None
+    * 說明: 當使用獨立發佈的 vLLM Inference Server 時，指定其 IP 與 Port。
+===============================================================================

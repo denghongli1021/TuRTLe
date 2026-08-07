@@ -12,7 +12,7 @@ set -e
 # 參數 1: 模式 (gen = 僅生成, eval = 僅Docker評測, all = 一條龍跑完)
 MODE=${1:-"all"}
 
-# 參數 2: 測試任務 (預設: rtllm)
+# 參數 2: 測試任務 (預設: rtllm, 可選: verilog_eval_rtl | verilog_eval_cc | verigen | notsotiny)
 TASK=${2:-"rtllm"}
 
 # 參數 3: 模型名稱 (預設: qwen2.5-coder:7b)
@@ -80,7 +80,8 @@ run_evaluation() {
         --task "$TASK" \
         --model "$MODEL" \
         --n_samples 1 \
-        --load_generations_path "$JSONL_PATH"
+        --load_generations_path "$JSONL_PATH" \
+        --generate_report True
 
     echo "✅ Docker 評測完成！"
 }

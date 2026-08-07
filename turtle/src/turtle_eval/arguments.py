@@ -144,7 +144,7 @@ class ExtendedWorkflowArguments(EvalArguments):
 
     tasks: str = field(
         default=None,
-        metadata={"help": lambda: f"Evaluation tasks from {get_task_updater().ALL_TASKS}"},
+        metadata={"help": f"Evaluation tasks from available benchmarks (e.g., rtllm, verilog_eval_rtl, verigen)"},
     )
     instruction_tokens: Optional[str] = field(
         default=None,
