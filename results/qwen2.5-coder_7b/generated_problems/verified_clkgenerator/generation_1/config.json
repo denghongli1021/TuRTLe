@@ -1,6 +1,0 @@
-{
-    "DESIGN_NAME": "clkgenerator",
-    "VERILOG_FILES": "dir::clkgenerator.sv",
-    "CLOCK_PERIOD": 10,
-    "CLOCK_PORT": ""
-}

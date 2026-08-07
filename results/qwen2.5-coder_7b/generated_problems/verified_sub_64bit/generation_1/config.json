@@ -1,6 +1,0 @@
-{
-    "DESIGN_NAME": "sub_64bit",
-    "VERILOG_FILES": "dir::sub_64bit.sv",
-    "CLOCK_PERIOD": 10,
-    "CLOCK_PORT": ""
-}

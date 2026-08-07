@@ -1,6 +1,0 @@
-{
-    "DESIGN_NAME": "RAM",
-    "VERILOG_FILES": "dir::RAM.sv",
-    "CLOCK_PERIOD": 10,
-    "CLOCK_PORT": "clk"
-}

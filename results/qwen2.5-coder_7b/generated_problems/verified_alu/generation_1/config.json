@@ -1,6 +1,0 @@
-{
-    "DESIGN_NAME": "alu",
-    "VERILOG_FILES": "dir::alu.sv",
-    "CLOCK_PERIOD": 10,
-    "CLOCK_PORT": ""
-}

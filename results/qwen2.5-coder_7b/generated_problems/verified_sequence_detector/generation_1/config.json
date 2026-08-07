@@ -1,6 +1,0 @@
-{
-    "DESIGN_NAME": "sequence_detector",
-    "VERILOG_FILES": "dir::sequence_detector.sv",
-    "CLOCK_PERIOD": 10,
-    "CLOCK_PORT": "clk"
-}
