@@ -1,0 +1,115 @@
+*********BETTER THAN HUMAN**********
+S_multi_8bit generations power:
+x: 0.0005312219145707786 in S_i: [0.0005312219145707786]
+Reference value: 0.0005636403220705688
+
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations power:
+x: 0.0001366634969599545 in S_i: [0.0001366634969599545]
+Reference value: 0.0003324878343846649
+
+*********BETTER THAN HUMAN**********
+S_ring_counter generations power:
+x: 1.4690702300867997e-05 in S_i: [1.4690702300867997e-05]
+Reference value: 3.9198363083414733e-05
+
+*********BETTER THAN HUMAN**********
+S_signal_generator generations power:
+x: 2.8690310500678606e-05 in S_i: [2.8690310500678606e-05]
+Reference value: 3.348392783664167e-05
+
+*********BETTER THAN HUMAN**********
+S_calendar generations power:
+x: 8.854315819917247e-05 in S_i: [8.854315819917247e-05]
+Reference value: 8.854318002704531e-05
+
+*********BETTER THAN HUMAN**********
+S_ROM generations power:
+x: 1.6838056353662978e-06 in S_i: [1.6838056353662978e-06]
+Reference value: 7.857409400457982e-06
+
+*********BETTER THAN HUMAN**********
+S_RAM generations power:
+x: 0.0004177309456281364 in S_i: [0.0004177309456281364]
+Reference value: 0.0006231274455785751
+
+*********BETTER THAN HUMAN**********
+S_multi_8bit generations performance:
+x: 11.426468761265294 in S_i: [11.426468761265294]
+Reference value: 11.74898944721883
+
+*********BETTER THAN HUMAN**********
+S_sub_64bit generations performance:
+x: 8.371492846999384 in S_i: [8.371492846999384]
+Reference value: 8.415343993177013
+
+*********BETTER THAN HUMAN**********
+S_comparator_4bit generations performance:
+x: 5.589144638638493 in S_i: [5.589144638638493]
+Reference value: 5.7895123667191095
+
+*********BETTER THAN HUMAN**********
+S_comparator_3bit generations performance:
+x: 5.064925733294002 in S_i: [5.064925733294002]
+Reference value: 5.56084860565421
+
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations performance:
+x: 8.220064195317546 in S_i: [8.220064195317546]
+Reference value: 8.377053732242398
+
+*********BETTER THAN HUMAN**********
+S_signal_generator generations performance:
+x: 2.795411314882684 in S_i: [2.795411314882684]
+Reference value: 2.818676705155509
+
+*********BETTER THAN HUMAN**********
+S_width_8to16 generations performance:
+x: 2.9384973064323328 in S_i: [2.9384973064323328]
+Reference value: 2.94882060449647
+
+*********BETTER THAN HUMAN**********
+S_instr_reg generations performance:
+x: 2.9089818044433127 in S_i: [2.9089818044433127]
+Reference value: 2.960570317142987
+
+*********BETTER THAN HUMAN**********
+S_RAM generations performance:
+x: 3.468918361856999 in S_i: [3.468918361856999]
+Reference value: 4.15144930183068
+
+*********BETTER THAN HUMAN**********
+S_multi_8bit generations area:
+x: 3460.8192 in S_i: [3460.8192]
+Reference value: 3465.824
+
+*********BETTER THAN HUMAN**********
+S_sub_64bit generations area:
+x: 4061.3952 in S_i: [4061.3952]
+Reference value: 4091.424
+
+*********BETTER THAN HUMAN**********
+S_comparator_3bit generations area:
+x: 102.5984 in S_i: [102.5984]
+Reference value: 105.1008
+
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations area:
+x: 1969.3888 in S_i: [1969.3888]
+Reference value: 3823.6672
+
+*********BETTER THAN HUMAN**********
+S_ring_counter generations area:
+x: 146.3904 in S_i: [146.3904]
+Reference value: 240.2304
+
+*********BETTER THAN HUMAN**********
+S_signal_generator generations area:
+x: 417.9008 in S_i: [417.9008]
+Reference value: 504.2336
+
+*********BETTER THAN HUMAN**********
+S_RAM generations area:
+x: 2630.0224 in S_i: [2630.0224]
+Reference value: 3570.9248
+

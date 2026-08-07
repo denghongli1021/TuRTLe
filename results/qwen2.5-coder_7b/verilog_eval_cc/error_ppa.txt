@@ -1,0 +1,15 @@
+*********NEGATIVE VALUE**********
+	S_Prob001 before filtering: [-1000000043329398899999999999999999999990]. Metric: performance
+Discarding negative value -1000000043329398899999999999999999999990. Could be OpenLane error
+	Reference value: -1000000043329398899999999999999999999990
+
+*********NEGATIVE VALUE**********
+	S_Prob003 before filtering: [-1000000043329398899999999999999999999990]. Metric: performance
+Discarding negative value -1000000043329398899999999999999999999990. Could be OpenLane error
+	Reference value: -1000000043329398899999999999999999999990
+
+*********NEGATIVE VALUE**********
+	S_Prob002 before filtering: [-1000000043329398899999999999999999999990]. Metric: performance
+Discarding negative value -1000000043329398899999999999999999999990. Could be OpenLane error
+	Reference value: -1000000043329398899999999999999999999990
+

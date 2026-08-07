@@ -1,0 +1,15 @@
+*********BETTER THAN HUMAN**********
+S_Prob009 generations power:
+x: 5.207590220379643e-06 in S_i: [5.207590220379643e-06]
+Reference value: 5.531345777853858e-06
+
+*********BETTER THAN HUMAN**********
+S_Prob009 generations performance:
+x: 4.779856423733949 in S_i: [4.779856423733949]
+Reference value: 4.799109467882301
+
+*********BETTER THAN HUMAN**********
+S_Prob009 generations area:
+x: 50.048 in S_i: [50.048]
+Reference value: 51.2992
+

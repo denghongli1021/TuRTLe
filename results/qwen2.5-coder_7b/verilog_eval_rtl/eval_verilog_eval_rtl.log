@@ -1,0 +1,1914 @@
+/work/turtle/src/turtle_eval/base.py:21: UserWarning: Loading the dataset failed with expected str, bytes or os.PathLike object, not NoneType. This task will use a locally downloaded dataset, not from the HF hub. This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Warning: bigcode_eval.tasks not found. Skipping original registry.
+Warning: bigcode_eval.tasks not found. Skipping original registry.
+Successfully reformatted JSON and saved to /work/results/qwen2.5-coder_7b/verilog_eval_rtl/formatted_output.json
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob143/generation_1
+Skipping empty generation for Prob083 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob052/generation_1
+Skipping empty generation for Prob058 generation_1
+Skipping empty generation for Prob074 generation_1
+Skipping empty generation for Prob030 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob063/generation_1
+Skipping empty generation for Prob040 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob019/generation_1
+Skipping empty generation for Prob066 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob098/generation_1
+Skipping empty generation for Prob137 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob006/generation_1
+Skipping empty generation for Prob126 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob013/generation_1
+Skipping empty generation for Prob072 generation_1
+Skipping empty generation for Prob131 generation_1
+Skipping empty generation for Prob115 generation_1
+Skipping empty generation for Prob146 generation_1
+Skipping empty generation for Prob127 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob018/generation_1
+Skipping empty generation for Prob041 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob092/generation_1
+Skipping empty generation for Prob039 generation_1
+Skipping empty generation for Prob136 generation_1
+Skipping empty generation for Prob138 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob011/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob034/generation_1
+Skipping empty generation for Prob104 generation_1
+Skipping empty generation for Prob036 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob059/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob035/generation_1
+Skipping empty generation for Prob037 generation_1
+Skipping empty generation for Prob099 generation_1
+Skipping empty generation for Prob079 generation_1
+Skipping empty generation for Prob152 generation_1
+Skipping empty generation for Prob017 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob007/generation_1
+Skipping empty generation for Prob156 generation_1
+Skipping empty generation for Prob155 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob094/generation_1
+Skipping empty generation for Prob038 generation_1
+Skipping empty generation for Prob050 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob103/generation_1
+Skipping empty generation for Prob076 generation_1
+Skipping empty generation for Prob082 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob128/generation_1
+Skipping empty generation for Prob140 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob091/generation_1
+Skipping empty generation for Prob054 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob027/generation_1
+Skipping empty generation for Prob130 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob042/generation_1
+Skipping empty generation for Prob048 generation_1
+Skipping empty generation for Prob055 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob010/generation_1
+Skipping empty generation for Prob122 generation_1
+Skipping empty generation for Prob100 generation_1
+Skipping empty generation for Prob129 generation_1
+Skipping empty generation for Prob123 generation_1
+Skipping empty generation for Prob110 generation_1
+Skipping empty generation for Prob134 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob025/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob108/generation_1
+Skipping empty generation for Prob145 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob028/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob033/generation_1
+Skipping empty generation for Prob139 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob088/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob061/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob085/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob004/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob043/generation_1
+Skipping empty generation for Prob116 generation_1
+Skipping empty generation for Prob069 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob071/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob075/generation_1
+Skipping empty generation for Prob133 generation_1
+Skipping empty generation for Prob062 generation_1
+Skipping empty generation for Prob111 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob012/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob101/generation_1
+Skipping empty generation for Prob121 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob102/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob014/generation_1
+Skipping empty generation for Prob047 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob154/generation_1
+Skipping empty generation for Prob109 generation_1
+Skipping empty generation for Prob132 generation_1
+Skipping empty generation for Prob106 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob026/generation_1
+Skipping empty generation for Prob081 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob008/generation_1
+Skipping empty generation for Prob107 generation_1
+Skipping empty generation for Prob067 generation_1
+Skipping empty generation for Prob113 generation_1
+Skipping empty generation for Prob147 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob022/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob051/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob105/generation_1
+Skipping empty generation for Prob144 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob031/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob001/generation_1
+Skipping empty generation for Prob097 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob009/generation_1
+Skipping empty generation for Prob149 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob002/generation_1
+Skipping empty generation for Prob141 generation_1
+Skipping empty generation for Prob049 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob135/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob021/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob090/generation_1
+Skipping empty generation for Prob046 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob064/generation_1
+Skipping empty generation for Prob142 generation_1
+Skipping empty generation for Prob114 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob024/generation_1
+Skipping empty generation for Prob077 generation_1
+Skipping empty generation for Prob056 generation_1
+Skipping empty generation for Prob070 generation_1
+Skipping empty generation for Prob057 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob020/generation_1
+Skipping empty generation for Prob148 generation_1
+Skipping empty generation for Prob080 generation_1
+Skipping empty generation for Prob125 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob078/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob112/generation_1
+Skipping empty generation for Prob120 generation_1
+Skipping empty generation for Prob119 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob086/generation_1
+Skipping empty generation for Prob150 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob023/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob005/generation_1
+Skipping empty generation for Prob089 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob060/generation_1
+Skipping empty generation for Prob087 generation_1
+Skipping empty generation for Prob096 generation_1
+Skipping empty generation for Prob151 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob044/generation_1
+Skipping empty generation for Prob068 generation_1
+Skipping empty generation for Prob029 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob124/generation_1
+Skipping empty generation for Prob045 generation_1
+Skipping empty generation for Prob095 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob153/generation_1
+Skipping empty generation for Prob117 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob032/generation_1
+Skipping empty generation for Prob065 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob015/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob093/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob016/generation_1
+Skipping empty generation for Prob118 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob084/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob053/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob003/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob073/generation_1
+Created structure for 69 problems in verilog_eval_rtl
+Warning: bigcode_eval.tasks not found. Skipping original registry.
+Successfully reformatted JSON and saved to /work/results/qwen2.5-coder_7b/verilog_eval_rtl/formatted_output.json
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob143/generation_1
+Skipping empty generation for Prob083 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob052/generation_1
+Skipping empty generation for Prob058 generation_1
+Skipping empty generation for Prob074 generation_1
+Skipping empty generation for Prob030 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob063/generation_1
+Skipping empty generation for Prob040 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob019/generation_1
+Skipping empty generation for Prob066 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob098/generation_1
+Skipping empty generation for Prob137 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob006/generation_1
+Skipping empty generation for Prob126 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob013/generation_1
+Skipping empty generation for Prob072 generation_1
+Skipping empty generation for Prob131 generation_1
+Skipping empty generation for Prob115 generation_1
+Skipping empty generation for Prob146 generation_1
+Skipping empty generation for Prob127 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob018/generation_1
+Skipping empty generation for Prob041 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob092/generation_1
+Skipping empty generation for Prob039 generation_1
+Skipping empty generation for Prob136 generation_1
+Skipping empty generation for Prob138 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob011/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob034/generation_1
+Skipping empty generation for Prob104 generation_1
+Skipping empty generation for Prob036 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob059/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob035/generation_1
+Skipping empty generation for Prob037 generation_1
+Skipping empty generation for Prob099 generation_1
+Skipping empty generation for Prob079 generation_1
+Skipping empty generation for Prob152 generation_1
+Skipping empty generation for Prob017 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob007/generation_1
+Skipping empty generation for Prob156 generation_1
+Skipping empty generation for Prob155 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob094/generation_1
+Skipping empty generation for Prob038 generation_1
+Skipping empty generation for Prob050 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob103/generation_1
+Skipping empty generation for Prob076 generation_1
+Skipping empty generation for Prob082 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob128/generation_1
+Skipping empty generation for Prob140 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob091/generation_1
+Skipping empty generation for Prob054 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob027/generation_1
+Skipping empty generation for Prob130 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob042/generation_1
+Skipping empty generation for Prob048 generation_1
+Skipping empty generation for Prob055 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob010/generation_1
+Skipping empty generation for Prob122 generation_1
+Skipping empty generation for Prob100 generation_1
+Skipping empty generation for Prob129 generation_1
+Skipping empty generation for Prob123 generation_1
+Skipping empty generation for Prob110 generation_1
+Skipping empty generation for Prob134 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob025/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob108/generation_1
+Skipping empty generation for Prob145 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob028/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob033/generation_1
+Skipping empty generation for Prob139 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob088/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob061/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob085/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob004/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob043/generation_1
+Skipping empty generation for Prob116 generation_1
+Skipping empty generation for Prob069 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob071/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob075/generation_1
+Skipping empty generation for Prob133 generation_1
+Skipping empty generation for Prob062 generation_1
+Skipping empty generation for Prob111 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob012/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob101/generation_1
+Skipping empty generation for Prob121 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob102/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob014/generation_1
+Skipping empty generation for Prob047 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob154/generation_1
+Skipping empty generation for Prob109 generation_1
+Skipping empty generation for Prob132 generation_1
+Skipping empty generation for Prob106 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob026/generation_1
+Skipping empty generation for Prob081 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob008/generation_1
+Skipping empty generation for Prob107 generation_1
+Skipping empty generation for Prob067 generation_1
+Skipping empty generation for Prob113 generation_1
+Skipping empty generation for Prob147 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob022/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob051/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob105/generation_1
+Skipping empty generation for Prob144 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob031/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob001/generation_1
+Skipping empty generation for Prob097 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob009/generation_1
+Skipping empty generation for Prob149 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob002/generation_1
+Skipping empty generation for Prob141 generation_1
+Skipping empty generation for Prob049 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob135/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob021/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob090/generation_1
+Skipping empty generation for Prob046 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob064/generation_1
+Skipping empty generation for Prob142 generation_1
+Skipping empty generation for Prob114 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob024/generation_1
+Skipping empty generation for Prob077 generation_1
+Skipping empty generation for Prob056 generation_1
+Skipping empty generation for Prob070 generation_1
+Skipping empty generation for Prob057 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob020/generation_1
+Skipping empty generation for Prob148 generation_1
+Skipping empty generation for Prob080 generation_1
+Skipping empty generation for Prob125 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob078/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob112/generation_1
+Skipping empty generation for Prob120 generation_1
+Skipping empty generation for Prob119 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob086/generation_1
+Skipping empty generation for Prob150 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob023/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob005/generation_1
+Skipping empty generation for Prob089 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob060/generation_1
+Skipping empty generation for Prob087 generation_1
+Skipping empty generation for Prob096 generation_1
+Skipping empty generation for Prob151 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob044/generation_1
+Skipping empty generation for Prob068 generation_1
+Skipping empty generation for Prob029 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob124/generation_1
+Skipping empty generation for Prob045 generation_1
+Skipping empty generation for Prob095 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob153/generation_1
+Skipping empty generation for Prob117 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob032/generation_1
+Skipping empty generation for Prob065 generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob015/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob093/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob016/generation_1
+Skipping empty generation for Prob118 generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob084/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob053/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob003/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/verilog_eval_rtl/generated_problems/Prob073/generation_1
+Created structure for 69 problems in verilog_eval_rtl
+generations loaded, 156 selected from 156 with 1 candidates
+Evaluating generations...
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpulf9bdpc /tmp/tmpulf9bdpc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_ref.sv
+{'timeout': False, 'exit_code': 30, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:1: error: timescale directive cannot be inside a module definition.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:6: syntax error\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:15: error: Malformed statement\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:22: syntax error\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:22: error: Malformed statement\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:23: syntax error\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:25: error: Malformed statement\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:26: syntax error\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:29: Syntax in assignment statement l-value.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob143_fsm_onehot_test.sv:29: error: Incomprehen'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp3_0etquv /tmp/tmp3_0etquv.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob083_mt2015_q4b_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob083_mt2015_q4b_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob083_mt2015_q4b_test.sv:89: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp3ir93ku_ /tmp/tmp3ir93ku_.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob052_gates100_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob052_gates100_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp3ir93ku_
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob052_gates100_test.sv:63: $finish called at 2166 (1ps)\nHint: Output 'out_and' has no mismatches.\nHint: Output 'out_or' has no mismatches.\nHint: Output 'out_xor' has no mismatches.\nHint: Total mismatched samples is 0 out of 433 samples\n\nSimulation finished at 2166 ps\nMismatches: 0 in 433 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob052 / generation_1...
+✅ model_name / Prob052 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpbf84qoys /tmp/tmpbf84qoys.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob058_alwaysblock2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob058_alwaysblock2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob058_alwaysblock2_test.sv:100: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpgy49he7o /tmp/tmpgy49he7o.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob074_ece241_2014_q4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob074_ece241_2014_q4_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob074_ece241_2014_q4_test.sv:91: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmphlgm2qmt /tmp/tmphlgm2qmt.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob030_popcount255_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob030_popcount255_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob030_popcount255_test.sv:97: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp6doi0z59 /tmp/tmp6doi0z59.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob063_review2015_shiftcount_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob063_review2015_shiftcount_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp6doi0z59
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob063_review2015_shiftcount_test.sv:63: $finish called at 10356 (1ps)\nHint: Output 'q' has 1886 mismatches. First mismatch occurred at time 10.\nHint: Total mismatched samples is 1886 out of 2071 samples\n\nSimulation finished at 10356 ps\nMismatches: 1886 in 2071 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpak_p0lhg /tmp/tmpak_p0lhg.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob040_count10_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob040_count10_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob040_count10_test.sv:111: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpuvcm6kcp /tmp/tmpuvcm6kcp.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob019_m2014_q4f_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob019_m2014_q4f_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpuvcm6kcp
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob019_m2014_q4f_test.sv:16: $finish called at 501 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 0 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob019 / generation_1...
+✅ model_name / Prob019 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpitsihjo9 /tmp/tmpitsihjo9.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob066_edgecapture_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob066_edgecapture_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob066_edgecapture_test.sv:138: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpytbuaffh /tmp/tmpytbuaffh.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob098_circuit7_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob098_circuit7_ref.sv
+{'timeout': False, 'exit_code': 1, 'stdout': '', 'stderr': "/tmp/tmpytbuaffh.sv:6: error: 'q' has already been declared in this scope.\n/tmp/tmpytbuaffh.sv:4:      : It was declared here as a net.\n"}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpdj1vapj9 /tmp/tmpdj1vapj9.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob137_fsm_serial_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob137_fsm_serial_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob137_fsm_serial_test.sv:97: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpgsz0w6co /tmp/tmpgsz0w6co.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob006_vectorr_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob006_vectorr_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpgsz0w6co
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob006_vectorr_test.sv:43: $finish called at 1090 (1ps)\nHint: Output 'out' has 203 mismatches. First mismatch occurred at time 20.\nHint: Total mismatched samples is 203 out of 218 samples\n\nSimulation finished at 1090 ps\nMismatches: 203 in 218 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp8x02za2e /tmp/tmp8x02za2e.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob126_circuit6_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob126_circuit6_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob126_circuit6_test.sv:83: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpajfuyzs2 /tmp/tmpajfuyzs2.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob013_m2014_q4e_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob013_m2014_q4e_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpajfuyzs2
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob013_m2014_q4e_test.sv:16: $finish called at 501 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 0 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob013 / generation_1...
+✅ model_name / Prob013 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpvenfzd4i /tmp/tmpvenfzd4i.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob072_thermostat_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob072_thermostat_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob072_thermostat_test.sv:130: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp1i6smvi7 /tmp/tmp1i6smvi7.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob131_mt2015_q4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob131_mt2015_q4_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob131_mt2015_q4_test.sv:68: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp792umj3w /tmp/tmp792umj3w.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob115_shift18_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob115_shift18_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob115_shift18_test.sv:133: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpzcrxfywq /tmp/tmpzcrxfywq.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob146_fsm_serialdata_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob146_fsm_serialdata_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob146_fsm_serialdata_test.sv:102: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpnyaws2mz /tmp/tmpnyaws2mz.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob127_lemmings1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob127_lemmings1_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob127_lemmings1_test.sv:133: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp709flml8 /tmp/tmp709flml8.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob018_mux256to1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob018_mux256to1_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp709flml8
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob018_mux256to1_test.sv:20: $finish called at 10000 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 2000 samples\n\nSimulation finished at 10000 ps\nMismatches: 0 in 2000 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob018 / generation_1...
+✅ model_name / Prob018 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpsdpn7vgc /tmp/tmpsdpn7vgc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob041_dff8r_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob041_dff8r_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob041_dff8r_test.sv:117: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpr6ahxdqq /tmp/tmpr6ahxdqq.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob092_gatesv100_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob092_gatesv100_ref.sv
+{'timeout': False, 'exit_code': 134, 'stdout': '', 'stderr': "/tmp/tmpr6ahxdqq.sv:12: error: Part select out_any[1:99] indices reversed.\n/tmp/tmpr6ahxdqq.sv:12:      : Did you mean out_any[99:1]?\n/tmp/tmpr6ahxdqq.sv:12: error: part select in[1:99] is out of order.\nivl: expr_synth.cc:178: virtual NetNet* NetEBBits::synthesize(Design*, NetScope*, NetExpr*): Assertion `lsig->vector_width() == rsig->vector_width()' failed.\n"}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmplgsev_x7 /tmp/tmplgsev_x7.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob039_always_if_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob039_always_if_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob039_always_if_test.sv:107: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp_e1uxa4_ /tmp/tmp_e1uxa4_.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob136_m2014_q6_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob136_m2014_q6_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob136_m2014_q6_test.sv:70: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpmlddtt_6 /tmp/tmpmlddtt_6.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob138_2012_q2fsm_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob138_2012_q2fsm_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob138_2012_q2fsm_test.sv:70: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp8fgykqav /tmp/tmp8fgykqav.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob011_norgate_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob011_norgate_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp8fgykqav
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob011_norgate_test.sv:38: $finish called at 1096 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 219 samples\n\nSimulation finished at 1096 ps\nMismatches: 0 in 219 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob011 / generation_1...
+✅ model_name / Prob011 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpuu85808m /tmp/tmpuu85808m.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob034_dff8_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob034_dff8_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpuu85808m
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob034_dff8_test.sv:36: $finish called at 206 (1ps)\nHint: Output 'q' has 1 mismatches. First mismatch occurred at time 5.\nHint: Total mismatched samples is 1 out of 41 samples\n\nSimulation finished at 206 ps\nMismatches: 1 in 41 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpubjp6tv5 /tmp/tmpubjp6tv5.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob104_mt2015_muxdff_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob104_mt2015_muxdff_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob104_mt2015_muxdff_test.sv:76: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpbta5rlrc /tmp/tmpbta5rlrc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob036_ringer_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob036_ringer_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob036_ringer_test.sv:91: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp4z53gh2c /tmp/tmp4z53gh2c.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob059_wire4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob059_wire4_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp4z53gh2c
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob059_wire4_test.sv:35: $finish called at 1090 (1ps)\nHint: Output 'w' has no mismatches.\nHint: Output 'x' has no mismatches.\nHint: Output 'y' has no mismatches.\nHint: Output 'z' has no mismatches.\nHint: Total mismatched samples is 0 out of 218 samples\n\nSimulation finished at 1090 ps\nMismatches: 0 in 218 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob059 / generation_1...
+✅ model_name / Prob059 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpb7h8ot3b /tmp/tmpb7h8ot3b.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob035_count1to10_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob035_count1to10_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpb7h8ot3b
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nHint: Your reset should be synchronous, but doesn't appear to be.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob035_count1to10_test.sv:62: $finish called at 2196 (1ps)\nHint: Output 'q' has 344 mismatches. First mismatch occurred at time 55.\nHint: Total mismatched samples is 344 out of 439 samples\n\nSimulation finished at 2196 ps\nMismatches: 344 in 439 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp5zqzqa70 /tmp/tmp5zqzqa70.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob037_review2015_count1k_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob037_review2015_count1k_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob037_review2015_count1k_test.sv:120: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpq0txm0j7 /tmp/tmpq0txm0j7.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob099_m2014_q6c_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob099_m2014_q6c_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob099_m2014_q6c_test.sv:77: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpm79i560r /tmp/tmpm79i560r.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob079_fsm3onehot_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob079_fsm3onehot_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob079_fsm3onehot_test.sv:76: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmps02gjt_o /tmp/tmps02gjt_o.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob152_lemmings3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob152_lemmings3_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob152_lemmings3_test.sv:170: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp047poc1i /tmp/tmp047poc1i.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob017_mux2to1v_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob017_mux2to1v_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob017_mux2to1v_test.sv:93: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpuzg6jpga /tmp/tmpuzg6jpga.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob007_wire_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob007_wire_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpuzg6jpga
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob007_wire_test.sv:36: $finish called at 601 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 120 samples\n\nSimulation finished at 601 ps\nMismatches: 0 in 120 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob007 / generation_1...
+✅ model_name / Prob007 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpedwxelk1 /tmp/tmpedwxelk1.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob156_review2015_fancytimer_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob156_review2015_fancytimer_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob156_review2015_fancytimer_test.sv:157: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpumjrof6a /tmp/tmpumjrof6a.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob155_lemmings4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob155_lemmings4_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob155_lemmings4_test.sv:234: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpkpkc8cjc /tmp/tmpkpkc8cjc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv:102: warning: Port 2 (out_both) of TopModule expects 3 bits, got 4.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv:102:        : Padding 1 high bits of the expression.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv:102: warning: Port 3 (out_any) of TopModule expects 3 bits, got 4.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv:102:        : Padding 1 high bits of the expression.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv:102: warning: Port 4 (out_different) of TopModule expects 3 bits, got 4.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv:102:        : Padding 1 high bits of the expression.\n'}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpkpkc8cjc
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob094_gatesv_test.sv:44: $finish called at 1066 (1ps)\nHint: Output 'out_both' has 82 mismatches. First mismatch occurred at time 5.\nHint: Output 'out_any' has 207 mismatches. First mismatch occurred at time 5.\nHint: Output 'out_different' has 195 mismatches. First mismatch occurred at time 5.\nHint: Total mismatched samples is 207 out of 213 samples\n\nSimulation finished at 1066 ps\nMismatches: 207 in 213 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp57u6hqn6 /tmp/tmp57u6hqn6.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob038_count15_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob038_count15_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob038_count15_test.sv:113: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpu_d41q23 /tmp/tmpu_d41q23.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob050_kmap1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob050_kmap1_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob050_kmap1_test.sv:92: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpzt0616ii /tmp/tmpzt0616ii.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob103_circuit2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob103_circuit2_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpzt0616ii
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob103_circuit2_test.sv:36: $finish called at 605 (1ps)\nHint: Output 'q' has 50 mismatches. First mismatch occurred at time 5.\nHint: Total mismatched samples is 50 out of 121 samples\n\nSimulation finished at 605 ps\nMismatches: 50 in 121 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmplwjibhxa /tmp/tmplwjibhxa.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob076_always_case_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob076_always_case_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob076_always_case_test.sv:115: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp438k5pqi /tmp/tmp438k5pqi.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob082_lfsr32_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob082_lfsr32_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob082_lfsr32_test.sv:69: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmplx5_ztog /tmp/tmplx5_ztog.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob128_fsm_ps2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob128_fsm_ps2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': '/tmp/tmplx5_ztog.sv:15: error: done is not a valid l-value in tb.top_module1.\n/tmp/tmplx5_ztog.sv:5:      : done is declared here as wire.\n/tmp/tmplx5_ztog.sv:35: error: done is not a valid l-value in tb.top_module1.\n/tmp/tmplx5_ztog.sv:5:      : done is declared here as wire.\n2 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp6m5d65s1 /tmp/tmp6m5d65s1.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob140_fsm_hdlc_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob140_fsm_hdlc_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob140_fsm_hdlc_test.sv:82: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp75f6e40l /tmp/tmp75f6e40l.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob091_2012_q2b_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob091_2012_q2b_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp75f6e40l
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob091_2012_q2b_test.sv:45: $finish called at 3001 (1ps)\nHint: Output 'Y1' has 238 mismatches. First mismatch occurred at time 15.\nHint: Output 'Y3' has 325 mismatches. First mismatch occurred at time 20.\nHint: Total mismatched samples is 443 out of 600 samples\n\nSimulation finished at 3001 ps\nMismatches: 443 in 600 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp74hry3s5 /tmp/tmp74hry3s5.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob054_edgedetect_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob054_edgedetect_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob054_edgedetect_test.sv:94: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpueib9_76 /tmp/tmpueib9_76.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob027_fadd_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob027_fadd_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpueib9_76
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob027_fadd_test.sv:40: $finish called at 1070 (1ps)\nHint: Output 'cout' has no mismatches.\nHint: Output 'sum' has no mismatches.\nHint: Total mismatched samples is 0 out of 214 samples\n\nSimulation finished at 1070 ps\nMismatches: 0 in 214 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob027 / generation_1...
+✅ model_name / Prob027 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpma9ajhj7 /tmp/tmpma9ajhj7.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob130_circuit5_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob130_circuit5_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob130_circuit5_test.sv:102: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpiv1hj4ht /tmp/tmpiv1hj4ht.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob042_vector4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob042_vector4_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': "/tmp/tmpiv1hj4ht.sv:5: syntax error\n/tmp/tmpiv1hj4ht.sv:5: error: Syntax error between internal '}' and closing '}' of repeat concatenation.\n"}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp73se1e_d /tmp/tmp73se1e_d.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob048_m2014_q4c_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob048_m2014_q4c_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob048_m2014_q4c_test.sv:68: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp0zzspjn4 /tmp/tmp0zzspjn4.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob055_conditional_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob055_conditional_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob055_conditional_test.sv:95: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpxo7pm2gu /tmp/tmpxo7pm2gu.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob010_mt2015_q4a_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob010_mt2015_q4a_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpxo7pm2gu
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob010_mt2015_q4a_test.sv:17: $finish called at 1011 (1ps)\nHint: Output 'z' has no mismatches.\nHint: Total mismatched samples is 0 out of 202 samples\n\nSimulation finished at 1011 ps\nMismatches: 0 in 202 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob010 / generation_1...
+✅ model_name / Prob010 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpqqpgw8u3 /tmp/tmpqqpgw8u3.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob122_kmap4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob122_kmap4_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob122_kmap4_test.sv:95: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp79tsg1g7 /tmp/tmp79tsg1g7.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob100_fsm3comb_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob100_fsm3comb_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob100_fsm3comb_test.sv:74: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp9dx38zm2 /tmp/tmp9dx38zm2.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob129_ece241_2013_q8_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob129_ece241_2013_q8_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob129_ece241_2013_q8_test.sv:138: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpn_k0mitv /tmp/tmpn_k0mitv.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob123_bugs_addsubz_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob123_bugs_addsubz_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob123_bugs_addsubz_test.sv:116: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpb_ud858q /tmp/tmpb_ud858q.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob110_fsm2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob110_fsm2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob110_fsm2_test.sv:129: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmplf1jigeb /tmp/tmplf1jigeb.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob134_2014_q3c_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob134_2014_q3c_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob134_2014_q3c_test.sv:75: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpc_4ufx1o /tmp/tmpc_4ufx1o.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob025_reduction_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob025_reduction_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpc_4ufx1o
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob025_reduction_test.sv:14: $finish called at 500 (1ps)\nHint: Output 'parity' has no mismatches.\nHint: Total mismatched samples is 0 out of 100 samples\n\nSimulation finished at 500 ps\nMismatches: 0 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob025 / generation_1...
+✅ model_name / Prob025 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpqgld8tgm /tmp/tmpqgld8tgm.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob108_rule90_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob108_rule90_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpqgld8tgm
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob108_rule90_test.sv:75: $finish called at 35606 (1ps)\nHint: Output 'q' has 7078 mismatches. First mismatch occurred at time 10.\nHint: Total mismatched samples is 7078 out of 7121 samples\n\nSimulation finished at 35606 ps\nMismatches: 7078 in 7121 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp15xar7mg /tmp/tmp15xar7mg.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob145_circuit8_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob145_circuit8_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob145_circuit8_test.sv:101: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp5yrak3qm /tmp/tmp5yrak3qm.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob028_m2014_q4a_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob028_m2014_q4a_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp5yrak3qm
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob028_m2014_q4a_test.sv:16: $finish called at 501 (1ps)\nHint: Output 'q' has 40 mismatches. First mismatch occurred at time 25.\nHint: Total mismatched samples is 40 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 40 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpeuxivdk3 /tmp/tmpeuxivdk3.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob033_ece241_2014_q1c_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob033_ece241_2014_q1c_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpeuxivdk3
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob033_ece241_2014_q1c_test.sv:41: $finish called at 580 (1ps)\nHint: Output 's' has no mismatches.\nHint: Output 'overflow' has 61 mismatches. First mismatch occurred at time 40.\nHint: Total mismatched samples is 61 out of 116 samples\n\nSimulation finished at 580 ps\nMismatches: 61 in 116 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp4vapfpq1 /tmp/tmp4vapfpq1.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob139_2013_q2bfsm_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob139_2013_q2bfsm_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob139_2013_q2bfsm_test.sv:84: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpo3hsde0s /tmp/tmpo3hsde0s.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob088_ece241_2014_q5b_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob088_ece241_2014_q5b_ref.sv
+{'timeout': False, 'exit_code': 5, 'stdout': '', 'stderr': '/tmp/tmpo3hsde0s.sv:24: error: one_hot is not a valid l-value in tb.top_module1.\n/tmp/tmpo3hsde0s.sv:9:      : one_hot is declared here as wire.\n/tmp/tmpo3hsde0s.sv:30: error: one_hot is not a valid l-value in tb.top_module1.\n/tmp/tmpo3hsde0s.sv:9:      : one_hot is declared here as wire.\n/tmp/tmpo3hsde0s.sv:33: error: one_hot is not a valid l-value in tb.top_module1.\n/tmp/tmpo3hsde0s.sv:9:      : one_hot is declared here as wire.\n/tmp/tmpo3hsde0s.sv:39: error: one_hot is not a valid l-value in tb.top_module1.\n/tmp/tmpo3hsde0s.sv:9:      : one_hot is declared here as wire.\n/tmp/tmpo3hsde0s.sv:42: error: one_hot is not a valid l-value in tb.top_module1.\n/tmp/tmpo3hsde0s.sv:9:      : one_hot is declared here as wire.\n5 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpawprtx1k /tmp/tmpawprtx1k.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob061_2014_q4a_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob061_2014_q4a_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpawprtx1k
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob061_2014_q4a_test.sv:16: $finish called at 1001 (1ps)\nHint: Output 'Q' has no mismatches.\nHint: Total mismatched samples is 0 out of 200 samples\n\nSimulation finished at 1001 ps\nMismatches: 0 in 200 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob061 / generation_1...
+✅ model_name / Prob061 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmptaooa6l0 /tmp/tmptaooa6l0.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob085_shift4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob085_shift4_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmptaooa6l0
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nHint: Your reset should be asynchronous, but doesn't appear to be.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob085_shift4_test.sv:76: $finish called at 2136 (1ps)\nHint: Output 'q' has 73 mismatches. First mismatch occurred at time 40.\nHint: Total mismatched samples is 73 out of 427 samples\n\nSimulation finished at 2136 ps\nMismatches: 73 in 427 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp38xy41d_ /tmp/tmp38xy41d_.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob004_vector2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob004_vector2_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp38xy41d_
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob004_vector2_test.sv:33: $finish called at 550 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 110 samples\n\nSimulation finished at 550 ps\nMismatches: 0 in 110 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob004 / generation_1...
+✅ model_name / Prob004 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpoxbwas9v /tmp/tmpoxbwas9v.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob043_vector5_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob043_vector5_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpoxbwas9v
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob043_vector5_test.sv:14: $finish called at 500 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 100 samples\n\nSimulation finished at 500 ps\nMismatches: 0 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob043 / generation_1...
+✅ model_name / Prob043 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpf5bzztxi /tmp/tmpf5bzztxi.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob116_m2014_q3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob116_m2014_q3_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob116_m2014_q3_test.sv:64: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp00d8gnta /tmp/tmp00d8gnta.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob069_truthtable1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob069_truthtable1_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob069_truthtable1_test.sv:88: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmprx9ads7a /tmp/tmprx9ads7a.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob071_always_casez_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob071_always_casez_ref.sv
+{'timeout': False, 'exit_code': 1, 'stdout': '', 'stderr': '/tmp/tmprx9ads7a.sv:11: sorry: break statements not supported.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpwra1th1z /tmp/tmpwra1th1z.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob075_counter_2bc_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob075_counter_2bc_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpwra1th1z
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob075_counter_2bc_test.sv:96: $finish called at 5256 (1ps)\nHint: Output 'state' has no mismatches.\nHint: Total mismatched samples is 0 out of 1051 samples\n\nSimulation finished at 5256 ps\nMismatches: 0 in 1051 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob075 / generation_1...
+✅ model_name / Prob075 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpltrio3vn /tmp/tmpltrio3vn.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob133_2014_q3fsm_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob133_2014_q3fsm_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob133_2014_q3fsm_test.sv:114: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp1pw7scjk /tmp/tmp1pw7scjk.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob062_bugs_mux2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob062_bugs_mux2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob062_bugs_mux2_test.sv:101: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpd9gli5vl /tmp/tmpd9gli5vl.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob111_fsm2s_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob111_fsm2s_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob111_fsm2s_test.sv:127: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp60hvmz64 /tmp/tmp60hvmz64.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob012_xnorgate_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob012_xnorgate_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp60hvmz64
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob012_xnorgate_test.sv:38: $finish called at 1096 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 219 samples\n\nSimulation finished at 1096 ps\nMismatches: 0 in 219 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob012 / generation_1...
+✅ model_name / Prob012 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmps7rjwbic /tmp/tmps7rjwbic.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob101_circuit4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob101_circuit4_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmps7rjwbic
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob101_circuit4_test.sv:36: $finish called at 605 (1ps)\nHint: Output 'q' has 34 mismatches. First mismatch occurred at time 25.\nHint: Total mismatched samples is 34 out of 121 samples\n\nSimulation finished at 605 ps\nMismatches: 34 in 121 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp7m27yx5t /tmp/tmp7m27yx5t.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob121_2014_q3bfsm_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob121_2014_q3bfsm_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob121_2014_q3bfsm_test.sv:78: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpu_6ngrgh /tmp/tmpu_6ngrgh.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob102_circuit3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob102_circuit3_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpu_6ngrgh
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob102_circuit3_test.sv:36: $finish called at 605 (1ps)\nHint: Output 'q' has 43 mismatches. First mismatch occurred at time 45.\nHint: Total mismatched samples is 43 out of 121 samples\n\nSimulation finished at 605 ps\nMismatches: 43 in 121 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp_kqaqr86 /tmp/tmp_kqaqr86.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob014_andgate_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob014_andgate_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp_kqaqr86
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob014_andgate_test.sv:38: $finish called at 1096 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 219 samples\n\nSimulation finished at 1096 ps\nMismatches: 0 in 219 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob014 / generation_1...
+✅ model_name / Prob014 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp01m8t0y_ /tmp/tmp01m8t0y_.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob047_dff8ar_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob047_dff8ar_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob047_dff8ar_test.sv:125: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpq7evl91b /tmp/tmpq7evl91b.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob154_fsm_ps2data_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob154_fsm_ps2data_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpq7evl91b
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob154_fsm_ps2data_test.sv:31: $finish called at 8096 (1ps)\nHint: Output 'out_bytes' has 488 mismatches. First mismatch occurred at time 210.\nHint: Output 'done' has 1040 mismatches. First mismatch occurred at time 210.\nHint: Total mismatched samples is 1517 out of 1619 samples\n\nSimulation finished at 8096 ps\nMismatches: 1517 in 1619 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpfg2c2b5b /tmp/tmpfg2c2b5b.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob109_fsm1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob109_fsm1_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob109_fsm1_test.sv:123: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp8dd_ae_5 /tmp/tmp8dd_ae_5.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob132_always_if2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob132_always_if2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob132_always_if2_test.sv:104: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp5mis20sg /tmp/tmp5mis20sg.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob106_always_nolatches_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob106_always_nolatches_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob106_always_nolatches_test.sv:106: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp15o59ot5 /tmp/tmp15o59ot5.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob026_alwaysblock1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob026_alwaysblock1_ref.sv
+{'timeout': False, 'exit_code': 1, 'stdout': '', 'stderr': '/tmp/tmp15o59ot5.sv:11: error: out_alwaysblock is not a valid l-value in tb.top_module1.\n/tmp/tmp15o59ot5.sv:5:      : out_alwaysblock is declared here as wire.\n1 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp9ujua2g8 /tmp/tmp9ujua2g8.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob081_7458_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob081_7458_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob081_7458_test.sv:124: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpsxmros1j /tmp/tmpsxmros1j.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob008_m2014_q4h_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob008_m2014_q4h_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpsxmros1j
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob008_m2014_q4h_test.sv:16: $finish called at 501 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 0 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob008 / generation_1...
+✅ model_name / Prob008 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmps6_k4ceq /tmp/tmps6_k4ceq.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob107_fsm1s_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob107_fsm1s_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob107_fsm1s_test.sv:122: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp6q5ahdpu /tmp/tmp6q5ahdpu.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob067_countslow_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob067_countslow_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob067_countslow_test.sv:141: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpyfl5gsvb /tmp/tmpyfl5gsvb.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob113_2012_q1g_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob113_2012_q1g_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob113_2012_q1g_test.sv:64: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp23n99y3o /tmp/tmp23n99y3o.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob147_circuit10_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob147_circuit10_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob147_circuit10_test.sv:107: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp6rmlba2k /tmp/tmp6rmlba2k.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob022_mux2to1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob022_mux2to1_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp6rmlba2k
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob022_mux2to1_test.sv:43: $finish called at 610 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 122 samples\n\nSimulation finished at 610 ps\nMismatches: 0 in 122 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob022 / generation_1...
+✅ model_name / Prob022 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpx_e60uyh /tmp/tmpx_e60uyh.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob051_gates4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob051_gates4_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpx_e60uyh
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob051_gates4_test.sv:35: $finish called at 1170 (1ps)\nHint: Output 'out_and' has no mismatches.\nHint: Output 'out_or' has no mismatches.\nHint: Output 'out_xor' has no mismatches.\nHint: Total mismatched samples is 0 out of 234 samples\n\nSimulation finished at 1170 ps\nMismatches: 0 in 234 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob051 / generation_1...
+✅ model_name / Prob051 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpzltpmxdt /tmp/tmpzltpmxdt.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob105_rotate100_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob105_rotate100_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': '/tmp/tmpzltpmxdt.sv:16: syntax error\n/tmp/tmpzltpmxdt.sv:17: Syntax in assignment statement l-value.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpinpzl_gb /tmp/tmpinpzl_gb.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob144_conwaylife_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob144_conwaylife_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob144_conwaylife_test.sv:148: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpfxmhjdc7 /tmp/tmpfxmhjdc7.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob031_dff_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob031_dff_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpfxmhjdc7
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob031_dff_test.sv:37: $finish called at 605 (1ps)\nHint: Output 'q' has 118 mismatches. First mismatch occurred at time 20.\nHint: Total mismatched samples is 118 out of 121 samples\n\nSimulation finished at 605 ps\nMismatches: 118 in 121 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpmusi0mkt /tmp/tmpmusi0mkt.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob001_zero_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob001_zero_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpmusi0mkt
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob001_zero_test.sv:30: $finish called at 102 (1ps)\nHint: Output 'zero' has no mismatches.\nHint: Total mismatched samples is 0 out of 20 samples\n\nSimulation finished at 102 ps\nMismatches: 0 in 20 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob001 / generation_1...
+✅ model_name / Prob001 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp4yym0pxe /tmp/tmp4yym0pxe.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob097_mux9to1v_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob097_mux9to1v_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob097_mux9to1v_test.sv:120: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpxo0skhem /tmp/tmpxo0skhem.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob009_popcount3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob009_popcount3_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpxo0skhem
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob009_popcount3_test.sv:36: $finish called at 1100 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 220 samples\n\nSimulation finished at 1100 ps\nMismatches: 0 in 220 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob009 / generation_1...
+✅ model_name / Prob009 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpg6hcndgf /tmp/tmpg6hcndgf.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob149_ece241_2013_q4_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob149_ece241_2013_q4_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob149_ece241_2013_q4_test.sv:151: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpicfqr6_6 /tmp/tmpicfqr6_6.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob002_m2014_q4i_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob002_m2014_q4i_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpicfqr6_6
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob002_m2014_q4i_test.sv:14: $finish called at 501 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 0 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob002 / generation_1...
+✅ model_name / Prob002 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpk5e8j_94 /tmp/tmpk5e8j_94.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob141_count_clock_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob141_count_clock_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob141_count_clock_test.sv:197: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpiwwwlffc /tmp/tmpiwwwlffc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob049_m2014_q4b_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob049_m2014_q4b_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob049_m2014_q4b_test.sv:68: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpz_r7a5qm /tmp/tmpz_r7a5qm.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob135_m2014_q6b_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob135_m2014_q6b_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpz_r7a5qm
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob135_m2014_q6b_test.sv:17: $finish called at 501 (1ps)\nHint: Output 'Y1' has 45 mismatches. First mismatch occurred at time 10.\nHint: Total mismatched samples is 45 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 45 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp438ic_ov /tmp/tmp438ic_ov.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob021_mux256to1v_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob021_mux256to1v_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp438ic_ov
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob021_mux256to1v_test.sv:20: $finish called at 10000 (1ps)\nHint: Output 'out' has 1836 mismatches. First mismatch occurred at time 10.\nHint: Total mismatched samples is 1836 out of 2000 samples\n\nSimulation finished at 10000 ps\nMismatches: 1836 in 2000 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp__ca_wuq /tmp/tmp__ca_wuq.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob090_circuit1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob090_circuit1_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp__ca_wuq
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob090_circuit1_test.sv:36: $finish called at 600 (1ps)\nHint: Output 'q' has no mismatches.\nHint: Total mismatched samples is 0 out of 120 samples\n\nSimulation finished at 600 ps\nMismatches: 0 in 120 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob090 / generation_1...
+✅ model_name / Prob090 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpulv7v1ym /tmp/tmpulv7v1ym.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob046_dff8p_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob046_dff8p_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob046_dff8p_test.sv:120: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp72_uxn5q /tmp/tmp72_uxn5q.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob064_vector3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob064_vector3_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp72_uxn5q
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob064_vector3_test.sv:44: $finish called at 630 (1ps)\nHint: Output 'w' has 125 mismatches. First mismatch occurred at time 10.\nHint: Output 'x' has 111 mismatches. First mismatch occurred at time 80.\nHint: Output 'y' has 111 mismatches. First mismatch occurred at time 80.\nHint: Output 'z' has 126 mismatches. First mismatch occurred at time 5.\nHint: Total mismatched samples is 126 out of 126 samples\n\nSimulation finished at 630 ps\nMismatches: 126 in 126 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpvr8lexsg /tmp/tmpvr8lexsg.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob142_lemmings2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob142_lemmings2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob142_lemmings2_test.sv:148: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp0ky1382e /tmp/tmp0ky1382e.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob114_bugs_case_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob114_bugs_case_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob114_bugs_case_test.sv:111: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpbztbgby7 /tmp/tmpbztbgby7.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob024_hadd_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob024_hadd_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpbztbgby7
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob024_hadd_test.sv:16: $finish called at 1000 (1ps)\nHint: Output 'sum' has no mismatches.\nHint: Output 'cout' has no mismatches.\nHint: Total mismatched samples is 0 out of 200 samples\n\nSimulation finished at 1000 ps\nMismatches: 0 in 200 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob024 / generation_1...
+✅ model_name / Prob024 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp2h875h2b /tmp/tmp2h875h2b.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob077_wire_decl_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob077_wire_decl_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob077_wire_decl_test.sv:101: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpb33y_bzm /tmp/tmpb33y_bzm.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob056_ece241_2013_q7_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob056_ece241_2013_q7_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob056_ece241_2013_q7_test.sv:95: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpe3mf5m_v /tmp/tmpe3mf5m_v.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob070_ece241_2013_q2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob070_ece241_2013_q2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob070_ece241_2013_q2_test.sv:125: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpve5mocqe /tmp/tmpve5mocqe.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob057_kmap2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob057_kmap2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob057_kmap2_test.sv:95: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp22vub8g6 /tmp/tmp22vub8g6.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob020_mt2015_eq2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob020_mt2015_eq2_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp22vub8g6
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob020_mt2015_eq2_test.sv:20: $finish called at 10001 (1ps)\nHint: Output 'z' has no mismatches.\nHint: Total mismatched samples is 0 out of 2000 samples\n\nSimulation finished at 10001 ps\nMismatches: 0 in 2000 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob020 / generation_1...
+✅ model_name / Prob020 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp0y04khlc /tmp/tmp0y04khlc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob148_2013_q2afsm_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob148_2013_q2afsm_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob148_2013_q2afsm_test.sv:145: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp2imgnox3 /tmp/tmp2imgnox3.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob080_timer_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob080_timer_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob080_timer_test.sv:106: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp6wddazgx /tmp/tmp6wddazgx.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob125_kmap3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob125_kmap3_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob125_kmap3_test.sv:95: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp5n0ayslc /tmp/tmp5n0ayslc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob078_dualedge_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob078_dualedge_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp5n0ayslc
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob078_dualedge_test.sv:36: $finish called at 1121 (1ps)\nHint: Output 'q' has no mismatches.\nHint: Total mismatched samples is 0 out of 224 samples\n\nSimulation finished at 1121 ps\nMismatches: 0 in 224 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob078 / generation_1...
+❌ model_name / Prob078 / generation_1: Failed
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp6_75jky8 /tmp/tmp6_75jky8.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob112_always_case2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob112_always_case2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': "/tmp/tmp6_75jky8.sv:6: error: can not select part of scalar: in\n/tmp/tmp6_75jky8.sv:5: error: Unable to elaborate r-value: ((in)==(4'd0))?(2'd0):(((in['sd3])==(1'd1))?(2'd0):(((in['sd2])==(1'd1))?(2'd1):(((in['sd1])==(1'd1))?(2'd2):(2'd3))))\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob112_always_case2_test.sv:86: warning: Port 1 (in) of TopModule expects 1 bits, got 4.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob112_always_case2_test.sv:86:        : Pruning 3 high bits of the expression.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob112_always_case2_test.sv:86: warning: Port 2 (pos) of TopModule expects 1 bits, got 2.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob112_always_case2_test.sv:86:        : Padding 1 high bits of the expression.\n2 error(s) during elaboration.\n"}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpmsefqpb8 /tmp/tmpmsefqpb8.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob120_fsm3s_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob120_fsm3s_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob120_fsm3s_test.sv:129: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp7ltiha_w /tmp/tmp7ltiha_w.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob119_fsm3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob119_fsm3_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob119_fsm3_test.sv:131: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpnp5c3c8q /tmp/tmpnp5c3c8q.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob086_lfsr5_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob086_lfsr5_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': "/tmp/tmpnp5c3c8q.sv:16: warning: Constant bit select [5] is after vector lfsr[4:0].\n/tmp/tmpnp5c3c8q.sv:16:        : Replacing select with a constant 1'bx.\n"}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpnp5c3c8q
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob086_lfsr5_test.sv:65: $finish called at 22216 (1ps)\nHint: Output 'q' has 4412 mismatches. First mismatch occurred at time 40.\nHint: Total mismatched samples is 4412 out of 4443 samples\n\nSimulation finished at 22216 ps\nMismatches: 4412 in 4443 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpre5pm42l /tmp/tmpre5pm42l.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob150_review2015_fsmonehot_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob150_review2015_fsmonehot_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob150_review2015_fsmonehot_test.sv:114: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpux1i7l73 /tmp/tmpux1i7l73.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob023_vector100r_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob023_vector100r_ref.sv
+{'timeout': False, 'exit_code': 6, 'stdout': '', 'stderr': '/tmp/tmpux1i7l73.sv:6: syntax error\n/tmp/tmpux1i7l73.sv:7: error: Invalid module item.\n/tmp/tmpux1i7l73.sv:7: syntax error\n/tmp/tmpux1i7l73.sv:7: error: Invalid module instantiation\n/tmp/tmpux1i7l73.sv:7: error: Invalid module instantiation\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob023_vector100r_test.sv:9: error: Invalid module item.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp5sqa3ici /tmp/tmp5sqa3ici.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob005_notgate_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob005_notgate_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp5sqa3ici
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob005_notgate_test.sv:37: $finish called at 1196 (1ps)\nHint: Output 'out' has no mismatches.\nHint: Total mismatched samples is 0 out of 239 samples\n\nSimulation finished at 1196 ps\nMismatches: 0 in 239 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob005 / generation_1...
+✅ model_name / Prob005 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpu3k65en6 /tmp/tmpu3k65en6.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob089_ece241_2014_q5a_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob089_ece241_2014_q5a_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob089_ece241_2014_q5a_test.sv:125: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpf98j4asu /tmp/tmpf98j4asu.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob060_m2014_q4k_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob060_m2014_q4k_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpf98j4asu
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob060_m2014_q4k_test.sv:21: $finish called at 1496 (1ps)\nHint: Output 'out' has 14 mismatches. First mismatch occurred at time 270.\nHint: Total mismatched samples is 14 out of 299 samples\n\nSimulation finished at 1496 ps\nMismatches: 14 in 299 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp_zd8usx9 /tmp/tmp_zd8usx9.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob087_gates_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob087_gates_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob087_gates_test.sv:119: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpogsb_kuf /tmp/tmpogsb_kuf.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob096_review2015_fsmseq_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob096_review2015_fsmseq_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob096_review2015_fsmseq_test.sv:126: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpwhtzm152 /tmp/tmpwhtzm152.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob151_review2015_fsm_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob151_review2015_fsm_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob151_review2015_fsm_test.sv:144: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpeonfg6wb /tmp/tmpeonfg6wb.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob044_vectorgates_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob044_vectorgates_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpeonfg6wb
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob044_vectorgates_test.sv:39: $finish called at 1306 (1ps)\nHint: Output 'out_or_bitwise' has no mismatches.\nHint: Output 'out_or_logical' has no mismatches.\nHint: Output 'out_not' has no mismatches.\nHint: Total mismatched samples is 0 out of 261 samples\n\nSimulation finished at 1306 ps\nMismatches: 0 in 261 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob044 / generation_1...
+✅ model_name / Prob044 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpv8bopa_1 /tmp/tmpv8bopa_1.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob068_countbcd_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob068_countbcd_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob068_countbcd_test.sv:122: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpa8rkfbq6 /tmp/tmpa8rkfbq6.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob029_m2014_q4g_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob029_m2014_q4g_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob029_m2014_q4g_test.sv:70: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpzdktlz_b /tmp/tmpzdktlz_b.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob124_rule110_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob124_rule110_ref.sv
+{'timeout': False, 'exit_code': 1, 'stdout': '', 'stderr': '/tmp/tmpzdktlz_b.sv:30: error: Concatenation operand "\'sd0" has indefinite width.\n1 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpe4smu9yx /tmp/tmpe4smu9yx.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob045_edgedetect2_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob045_edgedetect2_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob045_edgedetect2_test.sv:94: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp3jgh3n5w /tmp/tmp3jgh3n5w.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob095_review2015_fsmshift_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob095_review2015_fsmshift_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob095_review2015_fsmshift_test.sv:66: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp0lf8yid5 /tmp/tmp0lf8yid5.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob153_gshare_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob153_gshare_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': '/tmp/tmp0lf8yid5.sv:26: error: predict_taken is not a valid l-value in tb.top_module1.\n/tmp/tmp0lf8yid5.sv:7:      : predict_taken is declared here as wire.\n/tmp/tmp0lf8yid5.sv:34: error: predict_taken is not a valid l-value in tb.top_module1.$unm_blk_3.\n/tmp/tmp0lf8yid5.sv:7:      : predict_taken is declared here as wire.\n2 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp7qhigkfd /tmp/tmp7qhigkfd.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob117_circuit9_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob117_circuit9_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob117_circuit9_test.sv:91: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpaxsz_r_b /tmp/tmpaxsz_r_b.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob032_vector0_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob032_vector0_ref.sv
+{'timeout': False, 'exit_code': 6, 'stdout': '', 'stderr': "/tmp/tmpaxsz_r_b.sv:9: error: can not select part of scalar: vec\n/tmp/tmpaxsz_r_b.sv:9: error: Unable to elaborate r-value: vec['sd2]\n/tmp/tmpaxsz_r_b.sv:10: error: can not select part of scalar: vec\n/tmp/tmpaxsz_r_b.sv:10: error: Unable to elaborate r-value: vec['sd1]\n/tmp/tmpaxsz_r_b.sv:11: error: can not select part of scalar: vec\n/tmp/tmpaxsz_r_b.sv:11: error: Unable to elaborate r-value: vec['sd0]\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob032_vector0_test.sv:99: warning: Port 1 (vec) of TopModule expects 1 bits, got 3.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob032_vector0_test.sv:99:        : Pruning 2 high bits of the expression.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob032_vector0_test.sv:99: warning: Port 2 (outv) of TopModule expects 1 bits, got 3.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob032_vector0_test.sv:99:        : Padding 2 high bits of the expression.\n6 error(s) during elaboration.\n"}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp0kszx55q /tmp/tmp0kszx55q.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob065_7420_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob065_7420_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob065_7420_test.sv:118: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpw_5qn65q /tmp/tmpw_5qn65q.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob015_vector1_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob015_vector1_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpw_5qn65q
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob015_vector1_test.sv:35: $finish called at 1090 (1ps)\nHint: Output 'out_hi' has no mismatches.\nHint: Output 'out_lo' has no mismatches.\nHint: Total mismatched samples is 0 out of 218 samples\n\nSimulation finished at 1090 ps\nMismatches: 0 in 218 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / Prob015 / generation_1...
+✅ model_name / Prob015 / generation_1: Success
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpufparail /tmp/tmpufparail.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob093_ece241_2014_q3_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob093_ece241_2014_q3_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpufparail
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob093_ece241_2014_q3_test.sv:38: $finish called at 300 (1ps)\nHint: Output 'mux_in' has 60 mismatches. First mismatch occurred at time 5.\nHint: Total mismatched samples is 60 out of 60 samples\n\nSimulation finished at 300 ps\nMismatches: 60 in 60 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp8wq3ebgc /tmp/tmp8wq3ebgc.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob016_m2014_q4j_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob016_m2014_q4j_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmp8wq3ebgc
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob016_m2014_q4j_test.sv:16: $finish called at 501 (1ps)\nHint: Output 'sum' has 99 mismatches. First mismatch occurred at time 10.\nHint: Total mismatched samples is 99 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 99 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp1113j5x0 /tmp/tmp1113j5x0.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob118_history_shift_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob118_history_shift_ref.sv
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': 'turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob118_history_shift_test.sv:168: error: Unknown module type: TopModule\n2 error(s) during elaboration.\n*** These modules were missing:\n        TopModule referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpka8m6wk6 /tmp/tmpka8m6wk6.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob084_ece241_2013_q12_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob084_ece241_2013_q12_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpka8m6wk6
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob084_ece241_2013_q12_test.sv:55: $finish called at 2650 (1ps)\nHint: Output 'Z' has 263 mismatches. First mismatch occurred at time 40.\nHint: Total mismatched samples is 263 out of 530 samples\n\nSimulation finished at 2650 ps\nMismatches: 263 in 530 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmprzg06nnb /tmp/tmprzg06nnb.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob053_m2014_q4d_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob053_m2014_q4d_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmprzg06nnb
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob053_m2014_q4d_test.sv:16: $finish called at 501 (1ps)\nHint: Output 'out' has 1 mismatches. First mismatch occurred at time 5.\nHint: Total mismatched samples is 1 out of 100 samples\n\nSimulation finished at 501 ps\nMismatches: 1 in 100 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmpf3957oh3 /tmp/tmpf3957oh3.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob003_step_one_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob003_step_one_ref.sv
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': '/tmp/tmpf3957oh3.sv:4: warning: @* found no sensitivities so it will never trigger.\n'}
+----------------------------------------------------------------------
+------------------------------BUILD AND RUN RESULT------------------------------
+vvp -n /tmp/tmpf3957oh3
+{'timeout': False, 'exit_code': 0, 'stdout': "VCD info: dumpfile wave.vcd opened for output.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob003_step_one_test.sv:30: $finish called at 102 (1ps)\nHint: Output 'one' has 20 mismatches. First mismatch occurred at time 5.\nHint: Total mismatched samples is 20 out of 20 samples\n\nSimulation finished at 102 ps\nMismatches: 20 in 20 samples\n", 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+iverilog -Wall -Winfloop -Wno-timescale -g2012 -s tb -o /tmp/tmp9mrrgcfd /tmp/tmp9mrrgcfd.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob073_dff16e_test.sv turtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob073_dff16e_ref.sv
+{'timeout': False, 'exit_code': 4, 'stdout': '', 'stderr': '/tmp/tmp9mrrgcfd.sv:13: error: can not select part of scalar: byteena\n/tmp/tmp9mrrgcfd.sv:13: error: Unable to elaborate condition expression.\n/tmp/tmp9mrrgcfd.sv:16: error: can not select part of scalar: byteena\n/tmp/tmp9mrrgcfd.sv:16: error: Unable to elaborate condition expression.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob073_dff16e_test.sv:135: warning: Port 3 (byteena) of TopModule expects 1 bits, got 2.\nturtle/tasks/verilog-eval/dataset_spec-to-rtl/Prob073_dff16e_test.sv:135:        : Pruning 1 high bits of the expression.\n4 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+i: Prob052, S_i: [0.0003436395199969411]
+-------------------------------------------------
+Processing Prob052. Original S_i: [0.0003436395199969411]
+Filtered S_i: [0.0003436395199969411, 0.0006872790399938822, 0.0006872790399938822, 0.0006872790399938822, 0.0006872790399938822]
+Golden solution: 0.0003436395199969411
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob019, S_i: [8.574261300964281e-07]
+-------------------------------------------------
+Processing Prob019. Original S_i: [8.574261300964281e-07]
+Filtered S_i: [8.574261300964281e-07, 1.7148522601928562e-06, 1.7148522601928562e-06, 1.7148522601928562e-06, 1.7148522601928562e-06]
+Golden solution: 8.574261300964281e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob013, S_i: [7.422120233968599e-07]
+-------------------------------------------------
+Processing Prob013. Original S_i: [7.422120233968599e-07]
+Filtered S_i: [7.422120233968599e-07, 1.4844240467937198e-06, 1.4844240467937198e-06, 1.4844240467937198e-06, 1.4844240467937198e-06]
+Golden solution: 7.422120233968599e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob018, S_i: [9.767102164914832e-05]
+-------------------------------------------------
+Processing Prob018. Original S_i: [9.767102164914832e-05]
+Filtered S_i: [9.767102164914832e-05, 0.00019534204329829663, 0.00019534204329829663, 0.00019534204329829663, 0.00019534204329829663]
+Golden solution: 9.767102164914832e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob011, S_i: [7.422120233968599e-07]
+-------------------------------------------------
+Processing Prob011. Original S_i: [7.422120233968599e-07]
+Filtered S_i: [7.422120233968599e-07, 1.4844240467937198e-06, 1.4844240467937198e-06, 1.4844240467937198e-06, 1.4844240467937198e-06]
+Golden solution: 7.422120233968599e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob059, S_i: [3.1789145396032836e-06]
+-------------------------------------------------
+Processing Prob059. Original S_i: [3.1789145396032836e-06]
+Filtered S_i: [3.1789145396032836e-06, 6.357829079206567e-06, 6.357829079206567e-06, 6.357829079206567e-06, 6.357829079206567e-06]
+Golden solution: 3.1789145396032836e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob007, S_i: [7.949776090754312e-07]
+-------------------------------------------------
+Processing Prob007. Original S_i: [7.949776090754312e-07]
+Filtered S_i: [7.949776090754312e-07, 1.5899552181508625e-06, 1.5899552181508625e-06, 1.5899552181508625e-06, 1.5899552181508625e-06]
+Golden solution: 7.949776090754312e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob027, S_i: [5.531345777853858e-06]
+-------------------------------------------------
+Processing Prob027. Original S_i: [5.531345777853858e-06]
+Filtered S_i: [5.531345777853858e-06, 1.1062691555707715e-05, 1.1062691555707715e-05, 1.1062691555707715e-05, 1.1062691555707715e-05]
+Golden solution: 5.531345777853858e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob010, S_i: [8.574261300964281e-07]
+-------------------------------------------------
+Processing Prob010. Original S_i: [8.574261300964281e-07]
+Filtered S_i: [8.574261300964281e-07, 1.7148522601928562e-06, 1.7148522601928562e-06, 1.7148522601928562e-06, 1.7148522601928562e-06]
+Golden solution: 8.574261300964281e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob025, S_i: [1.3777827007288579e-05]
+-------------------------------------------------
+Processing Prob025. Original S_i: [1.3777827007288579e-05]
+Filtered S_i: [1.3777827007288579e-05, 2.7555654014577158e-05, 2.7555654014577158e-05, 2.7555654014577158e-05, 2.7555654014577158e-05]
+Golden solution: 1.3777827007288579e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob061, S_i: [7.309784450626466e-06]
+-------------------------------------------------
+Processing Prob061. Original S_i: [7.309784450626466e-06]
+Filtered S_i: [7.309784450626466e-06, 1.4619568901252933e-05, 1.4619568901252933e-05, 1.4619568901252933e-05, 1.4619568901252933e-05]
+Golden solution: 7.309784450626466e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob004, S_i: [2.5439287128392607e-05]
+-------------------------------------------------
+Processing Prob004. Original S_i: [2.5439287128392607e-05]
+Filtered S_i: [2.5439287128392607e-05, 5.0878574256785214e-05, 5.0878574256785214e-05, 5.0878574256785214e-05, 5.0878574256785214e-05]
+Golden solution: 2.5439287128392607e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob043, S_i: [3.486883724690415e-05]
+-------------------------------------------------
+Processing Prob043. Original S_i: [3.486883724690415e-05]
+Filtered S_i: [3.486883724690415e-05, 6.97376744938083e-05, 6.97376744938083e-05, 6.97376744938083e-05, 6.97376744938083e-05]
+Golden solution: 3.486883724690415e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob075, S_i: [3.0275143217295408e-05]
+-------------------------------------------------
+Processing Prob075. Original S_i: [3.0275143217295408e-05]
+Filtered S_i: [3.0275143217295408e-05, 6.0550286434590816e-05, 6.0550286434590816e-05, 6.0550286434590816e-05, 6.0550286434590816e-05]
+Golden solution: 3.0275143217295408e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob012, S_i: [1.841930384216539e-06]
+-------------------------------------------------
+Processing Prob012. Original S_i: [1.841930384216539e-06]
+Filtered S_i: [1.841930384216539e-06, 3.683860768433078e-06, 3.683860768433078e-06, 3.683860768433078e-06, 3.683860768433078e-06]
+Golden solution: 1.841930384216539e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob014, S_i: [8.142714023051667e-07]
+-------------------------------------------------
+Processing Prob014. Original S_i: [8.142714023051667e-07]
+Filtered S_i: [8.142714023051667e-07, 1.6285428046103334e-06, 1.6285428046103334e-06, 1.6285428046103334e-06, 1.6285428046103334e-06]
+Golden solution: 8.142714023051667e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob008, S_i: [7.949776090754312e-07]
+-------------------------------------------------
+Processing Prob008. Original S_i: [7.949776090754312e-07]
+Filtered S_i: [7.949776090754312e-07, 1.5899552181508625e-06, 1.5899552181508625e-06, 1.5899552181508625e-06, 1.5899552181508625e-06]
+Golden solution: 7.949776090754312e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob022, S_i: [1.2040853789585526e-06]
+-------------------------------------------------
+Processing Prob022. Original S_i: [1.2040853789585526e-06]
+Filtered S_i: [1.2040853789585526e-06, 2.4081707579171052e-06, 2.4081707579171052e-06, 2.4081707579171052e-06, 2.4081707579171052e-06]
+Golden solution: 1.2040853789585526e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob051, S_i: [6.051443051546812e-06]
+-------------------------------------------------
+Processing Prob051. Original S_i: [6.051443051546812e-06]
+Filtered S_i: [6.051443051546812e-06, 1.2102886103093624e-05, 1.2102886103093624e-05, 1.2102886103093624e-05, 1.2102886103093624e-05]
+Golden solution: 6.051443051546812e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob001, S_i: [3.802499981553353e-12]
+-------------------------------------------------
+Processing Prob001. Original S_i: [3.802499981553353e-12]
+Filtered S_i: [3.802499981553353e-12, 7.604999963106707e-12, 7.604999963106707e-12, 7.604999963106707e-12, 7.604999963106707e-12]
+Golden solution: 3.802499981553353e-12
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob009, S_i: [5.207590220379643e-06]
+-------------------------------------------------
+Processing Prob009. Original S_i: [5.207590220379643e-06]
+Filtered S_i: [5.207590220379643e-06, 1.1062691555707715e-05, 1.1062691555707715e-05, 1.1062691555707715e-05, 1.1062691555707715e-05]
+Golden solution: 5.531345777853858e-06
+Adding term 1.7882937870646072 to the total sum
+-------------------------------------------------
+i: Prob002, S_i: [3.802499981553353e-12]
+-------------------------------------------------
+Processing Prob002. Original S_i: [3.802499981553353e-12]
+Filtered S_i: [3.802499981553353e-12, 7.604999963106707e-12, 7.604999963106707e-12, 7.604999963106707e-12, 7.604999963106707e-12]
+Golden solution: 3.802499981553353e-12
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob090, S_i: [8.142714023051667e-07]
+-------------------------------------------------
+Processing Prob090. Original S_i: [8.142714023051667e-07]
+Filtered S_i: [8.142714023051667e-07, 1.6285428046103334e-06, 1.6285428046103334e-06, 1.6285428046103334e-06, 1.6285428046103334e-06]
+Golden solution: 8.142714023051667e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob024, S_i: [2.41129214373359e-06]
+-------------------------------------------------
+Processing Prob024. Original S_i: [2.41129214373359e-06]
+Filtered S_i: [2.41129214373359e-06, 4.82258428746718e-06, 4.82258428746718e-06, 4.82258428746718e-06, 4.82258428746718e-06]
+Golden solution: 2.41129214373359e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob020, S_i: [2.1534092411457095e-06]
+-------------------------------------------------
+Processing Prob020. Original S_i: [2.1534092411457095e-06]
+Filtered S_i: [2.1534092411457095e-06, 4.306818482291419e-06, 4.306818482291419e-06, 4.306818482291419e-06, 4.306818482291419e-06]
+Golden solution: 2.1534092411457095e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob005, S_i: [6.900002631482494e-07]
+-------------------------------------------------
+Processing Prob005. Original S_i: [6.900002631482494e-07]
+Filtered S_i: [6.900002631482494e-07, 1.3800005262964987e-06, 1.3800005262964987e-06, 1.3800005262964987e-06, 1.3800005262964987e-06]
+Golden solution: 6.900002631482494e-07
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob044, S_i: [6.804490112699568e-06]
+-------------------------------------------------
+Processing Prob044. Original S_i: [6.804490112699568e-06]
+Filtered S_i: [6.804490112699568e-06, 1.3608980225399137e-05, 1.3608980225399137e-05, 1.3608980225399137e-05, 1.3608980225399137e-05]
+Golden solution: 6.804490112699568e-06
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob015, S_i: [1.2719640835712198e-05]
+-------------------------------------------------
+Processing Prob015. Original S_i: [1.2719640835712198e-05]
+Filtered S_i: [1.2719640835712198e-05, 2.5439281671424396e-05, 2.5439281671424396e-05, 2.5439281671424396e-05, 2.5439281671424396e-05]
+Golden solution: 1.2719640835712198e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+Penalizing 128 missing problems
+i: Prob052, S_i: [6.78898623201286]
+-------------------------------------------------
+Processing Prob052. Original S_i: [6.78898623201286]
+Filtered S_i: [6.78898623201286, 13.57797246402572, 13.57797246402572, 13.57797246402572, 13.57797246402572]
+Golden solution: 6.78898623201286
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob019, S_i: [4.547998328892256]
+-------------------------------------------------
+Processing Prob019. Original S_i: [4.547998328892256]
+Filtered S_i: [4.547998328892256, 9.095996657784513, 9.095996657784513, 9.095996657784513, 9.095996657784513]
+Golden solution: 4.547998328892256
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob013, S_i: [4.562762963269713]
+-------------------------------------------------
+Processing Prob013. Original S_i: [4.562762963269713]
+Filtered S_i: [4.562762963269713, 9.125525926539426, 9.125525926539426, 9.125525926539426, 9.125525926539426]
+Golden solution: 4.562762963269713
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob018, S_i: [7.4466748208849385]
+-------------------------------------------------
+Processing Prob018. Original S_i: [7.4466748208849385]
+Filtered S_i: [7.4466748208849385, 14.893349641769877, 14.893349641769877, 14.893349641769877, 14.893349641769877]
+Golden solution: 7.4466748208849385
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob011, S_i: [4.562762963269713]
+-------------------------------------------------
+Processing Prob011. Original S_i: [4.562762963269713]
+Filtered S_i: [4.562762963269713, 9.125525926539426, 9.125525926539426, 9.125525926539426, 9.125525926539426]
+Golden solution: 4.562762963269713
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob059, S_i: [4.450825389779886]
+-------------------------------------------------
+Processing Prob059. Original S_i: [4.450825389779886]
+Filtered S_i: [4.450825389779886, 8.901650779559771, 8.901650779559771, 8.901650779559771, 8.901650779559771]
+Golden solution: 4.450825389779886
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob007, S_i: [4.441449778116371]
+-------------------------------------------------
+Processing Prob007. Original S_i: [4.441449778116371]
+Filtered S_i: [4.441449778116371, 8.882899556232742, 8.882899556232742, 8.882899556232742, 8.882899556232742]
+Golden solution: 4.441449778116371
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob027, S_i: [4.799109467882301]
+-------------------------------------------------
+Processing Prob027. Original S_i: [4.799109467882301]
+Filtered S_i: [4.799109467882301, 9.598218935764603, 9.598218935764603, 9.598218935764603, 9.598218935764603]
+Golden solution: 4.799109467882301
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob010, S_i: [4.547998328892256]
+-------------------------------------------------
+Processing Prob010. Original S_i: [4.547998328892256]
+Filtered S_i: [4.547998328892256, 9.095996657784513, 9.095996657784513, 9.095996657784513, 9.095996657784513]
+Golden solution: 4.547998328892256
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob025, S_i: [4.982924658376039]
+-------------------------------------------------
+Processing Prob025. Original S_i: [4.982924658376039]
+Filtered S_i: [4.982924658376039, 9.965849316752077, 9.965849316752077, 9.965849316752077, 9.965849316752077]
+Golden solution: 4.982924658376039
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob061, S_i: [2.908934286896515]
+-------------------------------------------------
+Processing Prob061. Original S_i: [2.908934286896515]
+Filtered S_i: [2.908934286896515, 5.81786857379303, 5.81786857379303, 5.81786857379303, 5.81786857379303]
+Golden solution: 2.908934286896515
+Adding term 1.8000000000000003 to the total sum
+-------------------------------------------------
+i: Prob004, S_i: [4.441449778116371]
+-------------------------------------------------
+Processing Prob004. Original S_i: [4.441449778116371]
+Filtered S_i: [4.441449778116371, 8.882899556232742, 8.882899556232742, 8.882899556232742, 8.882899556232742]
+Golden solution: 4.441449778116371
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob043, S_i: [5.017681745457161]
+-------------------------------------------------
+Processing Prob043. Original S_i: [5.017681745457161]
+Filtered S_i: [5.017681745457161, 10.035363490914323, 10.035363490914323, 10.035363490914323, 10.035363490914323]
+Golden solution: 5.017681745457161
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob075, S_i: [2.923732227965653]
+-------------------------------------------------
+Processing Prob075. Original S_i: [2.923732227965653]
+Filtered S_i: [2.923732227965653, 5.847464455931306, 5.847464455931306, 5.847464455931306, 5.847464455931306]
+Golden solution: 2.923732227965653
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob012, S_i: [4.642884652598438]
+-------------------------------------------------
+Processing Prob012. Original S_i: [4.642884652598438]
+Filtered S_i: [4.642884652598438, 9.285769305196876, 9.285769305196876, 9.285769305196876, 9.285769305196876]
+Golden solution: 4.642884652598438
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob014, S_i: [4.495954624739611]
+-------------------------------------------------
+Processing Prob014. Original S_i: [4.495954624739611]
+Filtered S_i: [4.495954624739611, 8.991909249479223, 8.991909249479223, 8.991909249479223, 8.991909249479223]
+Golden solution: 4.495954624739611
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob008, S_i: [4.441449778116371]
+-------------------------------------------------
+Processing Prob008. Original S_i: [4.441449778116371]
+Filtered S_i: [4.441449778116371, 8.882899556232742, 8.882899556232742, 8.882899556232742, 8.882899556232742]
+Golden solution: 4.441449778116371
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob022, S_i: [4.712188772558483]
+-------------------------------------------------
+Processing Prob022. Original S_i: [4.712188772558483]
+Filtered S_i: [4.712188772558483, 9.424377545116966, 9.424377545116966, 9.424377545116966, 9.424377545116966]
+Golden solution: 4.712188772558483
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob051, S_i: [5.071784691334121]
+-------------------------------------------------
+Processing Prob051. Original S_i: [5.071784691334121]
+Filtered S_i: [5.071784691334121, 10.143569382668241, 10.143569382668241, 10.143569382668241, 10.143569382668241]
+Golden solution: 5.071784691334121
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob001, S_i: [-1000000043329398899999999999999999999990]
+-------------------------------------------------
+Processing Prob001. Original S_i: [-1000000043329398899999999999999999999990]
+Filtered S_i: [-2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980]
+Golden solution: -1000000043329398899999999999999999999990
+Adding term 2.0 to the total sum
+-------------------------------------------------
+i: Prob009, S_i: [4.779856423733949]
+-------------------------------------------------
+Processing Prob009. Original S_i: [4.779856423733949]
+Filtered S_i: [4.779856423733949, 9.598218935764603, 9.598218935764603, 9.598218935764603, 9.598218935764603]
+Golden solution: 4.799109467882301
+Adding term 1.7991976409674666 to the total sum
+-------------------------------------------------
+i: Prob002, S_i: [-1000000043329398899999999999999999999990]
+-------------------------------------------------
+Processing Prob002. Original S_i: [-1000000043329398899999999999999999999990]
+Filtered S_i: [-2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980, -2000000086658797799999999999999999999980]
+Golden solution: -1000000043329398899999999999999999999990
+Adding term 2.0 to the total sum
+-------------------------------------------------
+i: Prob090, S_i: [4.495954624739611]
+-------------------------------------------------
+Processing Prob090. Original S_i: [4.495954624739611]
+Filtered S_i: [4.495954624739611, 8.991909249479223, 8.991909249479223, 8.991909249479223, 8.991909249479223]
+Golden solution: 4.495954624739611
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob024, S_i: [4.645453708750079]
+-------------------------------------------------
+Processing Prob024. Original S_i: [4.645453708750079]
+Filtered S_i: [4.645453708750079, 9.290907417500158, 9.290907417500158, 9.290907417500158, 9.290907417500158]
+Golden solution: 4.645453708750079
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob020, S_i: [4.910902268285623]
+-------------------------------------------------
+Processing Prob020. Original S_i: [4.910902268285623]
+Filtered S_i: [4.910902268285623, 9.821804536571246, 9.821804536571246, 9.821804536571246, 9.821804536571246]
+Golden solution: 4.910902268285623
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob005, S_i: [4.380746778215958]
+-------------------------------------------------
+Processing Prob005. Original S_i: [4.380746778215958]
+Filtered S_i: [4.380746778215958, 8.761493556431915, 8.761493556431915, 8.761493556431915, 8.761493556431915]
+Golden solution: 4.380746778215958
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob044, S_i: [5.268073903996126]
+-------------------------------------------------
+Processing Prob044. Original S_i: [5.268073903996126]
+Filtered S_i: [5.268073903996126, 10.536147807992252, 10.536147807992252, 10.536147807992252, 10.536147807992252]
+Golden solution: 5.268073903996126
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob015, S_i: [4.441449778116371]
+-------------------------------------------------
+Processing Prob015. Original S_i: [4.441449778116371]
+Filtered S_i: [4.441449778116371, 8.882899556232742, 8.882899556232742, 8.882899556232742, 8.882899556232742]
+Golden solution: 4.441449778116371
+Adding term 1.8 to the total sum
+-------------------------------------------------
+Penalizing 128 missing problems
+i: Prob052, S_i: [2233.392]
+-------------------------------------------------
+Processing Prob052. Original S_i: [2233.392]
+Filtered S_i: [2233.392, 4466.784, 4466.784, 4466.784, 4466.784]
+Golden solution: 2233.392
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob019, S_i: [8.7584]
+-------------------------------------------------
+Processing Prob019. Original S_i: [8.7584]
+Filtered S_i: [8.7584, 17.5168, 17.5168, 17.5168, 17.5168]
+Golden solution: 8.7584
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob013, S_i: [6.256]
+-------------------------------------------------
+Processing Prob013. Original S_i: [6.256]
+Filtered S_i: [6.256, 12.512, 12.512, 12.512, 12.512]
+Golden solution: 6.256
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob018, S_i: [2314.72]
+-------------------------------------------------
+Processing Prob018. Original S_i: [2314.72]
+Filtered S_i: [2314.72, 4629.44, 4629.44, 4629.44, 4629.44]
+Golden solution: 2314.72
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob011, S_i: [6.256]
+-------------------------------------------------
+Processing Prob011. Original S_i: [6.256]
+Filtered S_i: [6.256, 12.512, 12.512, 12.512, 12.512]
+Golden solution: 6.256
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob059, S_i: [20.0192]
+-------------------------------------------------
+Processing Prob059. Original S_i: [20.0192]
+Filtered S_i: [20.0192, 40.0384, 40.0384, 40.0384, 40.0384]
+Golden solution: 20.0192
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob007, S_i: [5.0048]
+-------------------------------------------------
+Processing Prob007. Original S_i: [5.0048]
+Filtered S_i: [5.0048, 10.0096, 10.0096, 10.0096, 10.0096]
+Golden solution: 5.0048
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob027, S_i: [51.2992]
+-------------------------------------------------
+Processing Prob027. Original S_i: [51.2992]
+Filtered S_i: [51.2992, 102.5984, 102.5984, 102.5984, 102.5984]
+Golden solution: 51.2992
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob010, S_i: [8.7584]
+-------------------------------------------------
+Processing Prob010. Original S_i: [8.7584]
+Filtered S_i: [8.7584, 17.5168, 17.5168, 17.5168, 17.5168]
+Golden solution: 8.7584
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob025, S_i: [113.8592]
+-------------------------------------------------
+Processing Prob025. Original S_i: [113.8592]
+Filtered S_i: [113.8592, 227.7184, 227.7184, 227.7184, 227.7184]
+Golden solution: 113.8592
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob061, S_i: [43.792]
+-------------------------------------------------
+Processing Prob061. Original S_i: [43.792]
+Filtered S_i: [43.792, 87.584, 87.584, 87.584, 87.584]
+Golden solution: 43.792
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob004, S_i: [160.1536]
+-------------------------------------------------
+Processing Prob004. Original S_i: [160.1536]
+Filtered S_i: [160.1536, 320.3072, 320.3072, 320.3072, 320.3072]
+Golden solution: 160.1536
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob043, S_i: [231.472]
+-------------------------------------------------
+Processing Prob043. Original S_i: [231.472]
+Filtered S_i: [231.472, 462.944, 462.944, 462.944, 462.944]
+Golden solution: 231.472
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob075, S_i: [111.3568]
+-------------------------------------------------
+Processing Prob075. Original S_i: [111.3568]
+Filtered S_i: [111.3568, 222.7136, 222.7136, 222.7136, 222.7136]
+Golden solution: 111.3568
+Adding term 1.8000000000000003 to the total sum
+-------------------------------------------------
+i: Prob012, S_i: [16.2656]
+-------------------------------------------------
+Processing Prob012. Original S_i: [16.2656]
+Filtered S_i: [16.2656, 32.5312, 32.5312, 32.5312, 32.5312]
+Golden solution: 16.2656
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob014, S_i: [7.5072]
+-------------------------------------------------
+Processing Prob014. Original S_i: [7.5072]
+Filtered S_i: [7.5072, 15.0144, 15.0144, 15.0144, 15.0144]
+Golden solution: 7.5072
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob008, S_i: [5.0048]
+-------------------------------------------------
+Processing Prob008. Original S_i: [5.0048]
+Filtered S_i: [5.0048, 10.0096, 10.0096, 10.0096, 10.0096]
+Golden solution: 5.0048
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob022, S_i: [11.2608]
+-------------------------------------------------
+Processing Prob022. Original S_i: [11.2608]
+Filtered S_i: [11.2608, 22.5216, 22.5216, 22.5216, 22.5216]
+Golden solution: 11.2608
+Adding term 1.7999999999999996 to the total sum
+-------------------------------------------------
+i: Prob051, S_i: [67.5648]
+-------------------------------------------------
+Processing Prob051. Original S_i: [67.5648]
+Filtered S_i: [67.5648, 135.1296, 135.1296, 135.1296, 135.1296]
+Golden solution: 67.5648
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob001, S_i: [3.7536]
+-------------------------------------------------
+Processing Prob001. Original S_i: [3.7536]
+Filtered S_i: [3.7536, 7.5072, 7.5072, 7.5072, 7.5072]
+Golden solution: 3.7536
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob009, S_i: [50.048]
+-------------------------------------------------
+Processing Prob009. Original S_i: [50.048]
+Filtered S_i: [50.048, 102.5984, 102.5984, 102.5984, 102.5984]
+Golden solution: 51.2992
+Adding term 1.7951219512195122 to the total sum
+-------------------------------------------------
+i: Prob002, S_i: [3.7536]
+-------------------------------------------------
+Processing Prob002. Original S_i: [3.7536]
+Filtered S_i: [3.7536, 7.5072, 7.5072, 7.5072, 7.5072]
+Golden solution: 3.7536
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob090, S_i: [7.5072]
+-------------------------------------------------
+Processing Prob090. Original S_i: [7.5072]
+Filtered S_i: [7.5072, 15.0144, 15.0144, 15.0144, 15.0144]
+Golden solution: 7.5072
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob024, S_i: [23.7728]
+-------------------------------------------------
+Processing Prob024. Original S_i: [23.7728]
+Filtered S_i: [23.7728, 47.5456, 47.5456, 47.5456, 47.5456]
+Golden solution: 23.7728
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob020, S_i: [37.536]
+-------------------------------------------------
+Processing Prob020. Original S_i: [37.536]
+Filtered S_i: [37.536, 75.072, 75.072, 75.072, 75.072]
+Golden solution: 37.536
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob005, S_i: [3.7536]
+-------------------------------------------------
+Processing Prob005. Original S_i: [3.7536]
+Filtered S_i: [3.7536, 7.5072, 7.5072, 7.5072, 7.5072]
+Golden solution: 3.7536
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: Prob044, S_i: [48.7968]
+-------------------------------------------------
+Processing Prob044. Original S_i: [48.7968]
+Filtered S_i: [48.7968, 97.5936, 97.5936, 97.5936, 97.5936]
+Golden solution: 48.7968
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: Prob015, S_i: [80.0768]
+-------------------------------------------------
+Processing Prob015. Original S_i: [80.0768]
+Filtered S_i: [80.0768, 160.1536, 160.1536, 160.1536, 160.1536]
+Golden solution: 80.0768
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+Penalizing 128 missing problems
+{
+  "verilog_eval_rtl": {
+    "syntax": {
+      "pass@1": 34.62
+    },
+    "func": {
+      "pass@1": 18.59
+    },
+    "synthesis": {
+      "pass@1": 17.95
+    },
+    "power": 3.6,
+    "performance": 3.33,
+    "area": 3.59
+  },
+  "config": {
+    "prefix": "",
+    "do_sample": true,
+    "temperature": 0.2,
+    "top_k": 0,
+    "top_p": 0.95,
+    "n_samples": 1,
+    "eos": "<|endoftext|>",
+    "seed": 0,
+    "repetition_penalty": 1.0,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "model": "qwen2.5-coder:7b",
+    "use_auth_token": true,
+    "trust_remote_code": true,
+    "precision": "bf16",
+    "left_padding": false,
+    "provider": null,
+    "use_api": false,
+    "reasoning_effort": null,
+    "shuttle": null,
+    "gpu_memory_utilization": 0.9,
+    "swap_space": 64,
+    "continuous_batching_size": null,
+    "sequence_length_limit": null,
+    "tensor_parallel_size": 4,
+    "ip": null,
+    "port": null,
+    "tasks": "verilog_eval_rtl",
+    "instruction_tokens": null,
+    "metric_output_path": "./results/qwen2.5-coder_7b/verilog_eval_rtl//detail_report_verilog_eval_rtl.json",
+    "save_generations": true,
+    "save_generations_path": "/tmp/generations.json",
+    "save_references": true,
+    "save_references_path": "/tmp/references.json",
+    "prompt": null,
+    "limit": null,
+    "limit_start": 0,
+    "postprocess": true,
+    "allow_code_execution": true,
+    "generation_only": false,
+    "load_generations_path": "./results/qwen2.5-coder_7b/verilog_eval_rtl//verilog_eval_rtl.jsonl",
+    "load_data_path": null,
+    "rtlrepo_use_train_ds": false,
+    "few_shot": 0,
+    "syntax_path": null,
+    "path_data_benchmark": null,
+    "path_dataset_test": null,
+    "path_temporary_files": null,
+    "base_path_models": null,
+    "max_length_generation": 512,
+    "max_tokens": null,
+    "rtllm_version": "2.0",
+    "generate_report": true,
+    "compute_ppl_only": false,
+    "simulator": "icarus"
+  }
+}

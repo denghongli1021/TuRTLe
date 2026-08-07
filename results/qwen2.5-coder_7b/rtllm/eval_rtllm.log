@@ -1,0 +1,989 @@
+/work/turtle/src/turtle_eval/base.py:21: UserWarning: Loading the dataset failed with expected str, bytes or os.PathLike object, not NoneType. This task will use a locally downloaded dataset, not from the HF hub. This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Downloading readme: 0.00B [00:00, ?B/s]Warning: bigcode_eval.tasks not found. Skipping original registry.
+Warning: bigcode_eval.tasks not found. Skipping original registry.
+Attempting to load dataset from HuggingFace Hub: ggcristian/RTLLM-v2.0
+Downloading readme: 1.79kB [00:00, 4.86MB/s]
+Downloading data:   0%|          | 0.00/2.55k [00:00<?, ?B/s]Downloading data: 100%|██████████| 2.55k/2.55k [00:01<00:00, 2.04kB/s]Downloading data: 100%|██████████| 2.55k/2.55k [00:01<00:00, 2.04kB/s]
+Generating train split:   0%|          | 0/49 [00:00<?, ? examples/s]Generating train split:  96%|█████████▌| 47/49 [00:00<00:00, 11425.97 examples/s]
+Successfully loaded dataset from HuggingFace Hub
+Successfully reformatted JSON and saved to /work/results/qwen2.5-coder_7b/rtllm/formatted_output.json
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_multi_8bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_multi_pipe_8bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_booth4_mul/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_multi_16bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_sub_64bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_comparator_4bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_comparator_3bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_fixed_point_substractor/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_float_multi/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_fixed_point_adder/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_div_16bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_64bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_32bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_16bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_bcd/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_8bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_accu/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_sequence_detector/generation_1
+Detected single clock port 'CLK' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_fsm/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_JC_counter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_ring_counter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_up_down_counter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_counter_12/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_barrel_shifter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_LFSR/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_right_shifter/generation_1
+Detected single clock port 'Clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_LIFObuffer/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_square_wave/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_signal_generator/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_edge_detect/generation_1
+Detected single clock port 'CLK' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_calendar/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_parallel2serial/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_pulse_detect/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_traffic_light/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_width_8to16/generation_1
+Detected multiple clock ports ['clk_a', 'clk_b'] in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_synchronizer/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_serial2parallel/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_pe/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_instr_reg/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_ROM/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_clkgenerator/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_alu/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_RAM/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_divbyeven/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_divbyfrac/generation_1
+Detected single clock port 'CLK_in' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_div/generation_1
+Detected multiple clock ports ['clk', 'clock'] in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_divbyodd/generation_1
+Created structure for 47 problems in rtllm
+Warning: bigcode_eval.tasks not found. Skipping original registry.
+Attempting to load dataset from HuggingFace Hub: ggcristian/RTLLM-v2.0
+Successfully loaded dataset from HuggingFace Hub
+Successfully reformatted JSON and saved to /work/results/qwen2.5-coder_7b/rtllm/formatted_output.json
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_multi_8bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_multi_pipe_8bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_booth4_mul/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_multi_16bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_sub_64bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_comparator_4bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_comparator_3bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_fixed_point_substractor/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_float_multi/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_fixed_point_adder/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_div_16bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_64bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_32bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_16bit/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_bcd/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_adder_8bit/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_accu/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_sequence_detector/generation_1
+Detected single clock port 'CLK' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_fsm/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_JC_counter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_ring_counter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_up_down_counter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_counter_12/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_barrel_shifter/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_LFSR/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_right_shifter/generation_1
+Detected single clock port 'Clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_LIFObuffer/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_square_wave/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_signal_generator/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_edge_detect/generation_1
+Detected single clock port 'CLK' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_calendar/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_parallel2serial/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_pulse_detect/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_traffic_light/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_width_8to16/generation_1
+Detected multiple clock ports ['clk_a', 'clk_b'] in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_synchronizer/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_serial2parallel/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_pe/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_instr_reg/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_ROM/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_clkgenerator/generation_1
+No clock ports detected in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_alu/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_RAM/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_divbyeven/generation_1
+Detected single clock port 'clk' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_divbyfrac/generation_1
+Detected single clock port 'CLK_in' in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_div/generation_1
+Detected multiple clock ports ['clk', 'clock'] in /work/results/qwen2.5-coder_7b/rtllm/generated_problems/verified_freq_divbyodd/generation_1
+Created structure for 47 problems in rtllm
+generations loaded, 47 selected from 47 with 1 candidates
+Evaluating generations...
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpd_bgnjkc /tmp/tmpd_bgnjkc.sv /work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_8bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_8bit/testbench.v:45: $finish called at 1000000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / multi_8bit / generation_1...
+✅ model_name / multi_8bit / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpmfiokz0x /tmp/tmpmfiokz0x.sv /work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 31, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:1: error: timescale directive cannot be inside a module definition.\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:3: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:3: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:5: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:5: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:6: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:6: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:7: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:7: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_pipe_8bit/testbench.v:9: syntax error\n/work/'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpcrceuoyw /tmp/tmpcrceuoyw.sv /work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_booth_8bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_booth_8bit/testbench.v:77: $finish called at 1900 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpy58rwm2y /tmp/tmpy58rwm2y.sv /work/turtle/tasks/RTLLM/Arithmetic/Multiplier/multi_16bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 4, 'stdout': '', 'stderr': '/tmp/tmpy58rwm2y.sv:29: syntax error\n/tmp/tmpy58rwm2y.sv:29: error: Malformed conditional expression.\n/tmp/tmpy58rwm2y.sv:39: syntax error\n/tmp/tmpy58rwm2y.sv:39: error: Malformed statement\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpn4ko9qt9 /tmp/tmpn4ko9qt9.sv /work/turtle/tasks/RTLLM/Arithmetic/Substractor/sub_64bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Arithmetic/Substractor/sub_64bit/testbench.v:48: $finish called at 1000000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / sub_64bit / generation_1...
+✅ model_name / sub_64bit / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpsj386ntw /tmp/tmpsj386ntw.sv /work/turtle/tasks/RTLLM/Arithmetic/Comparator/comparator_4bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Arithmetic/Comparator/comparator_4bit/testbench.v:48: $finish called at 1000000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / comparator_4bit / generation_1...
+✅ model_name / comparator_4bit / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmponkfvwhp /tmp/tmponkfvwhp.sv /work/turtle/tasks/RTLLM/Arithmetic/Comparator/comparator_3bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Arithmetic/Comparator/comparator_3bit/testbench.v:48: $finish called at 1000000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / comparator_3bit / generation_1...
+✅ model_name / comparator_3bit / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp423w31cq /tmp/tmp423w31cq.sv /work/turtle/tasks/RTLLM/Arithmetic/Other/fixed_point_substractor/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Arithmetic/Other/fixed_point_substractor/testbench.v:73: $finish called at 1000000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / fixed_point_substractor / generation_1...
+✅ model_name / fixed_point_substractor / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp2semg16r /tmp/tmp2semg16r.sv /work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 22, 'stdout': '', 'stderr': '/tmp/tmp2semg16r.sv:41: syntax error\n/tmp/tmp2semg16r.sv:40: error: Syntax error defining function.\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:1: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:1: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:3: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:3: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:4: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:4: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:5: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:5: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:7: syntax error\n/work/turtle/tasks/RTLLM/Arithmetic/Other/float_multi/testbench.v:7: error: Malformed statement\n/work/turtle/tasks/RTLLM/Arithmeti'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpi0dp47x0 /tmp/tmpi0dp47x0.sv /work/turtle/tasks/RTLLM/Arithmetic/Other/fixed_point_adder/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 4, 'stdout': '', 'stderr': '/tmp/tmpi0dp47x0.sv:20: error: res is not a valid l-value in testbench.fp_adder.\n/tmp/tmpi0dp47x0.sv:10:      : res is declared here as wire.\n/tmp/tmpi0dp47x0.sv:24: error: res is not a valid l-value in testbench.fp_adder.\n/tmp/tmpi0dp47x0.sv:10:      : res is declared here as wire.\n/tmp/tmpi0dp47x0.sv:26: error: res is not a valid l-value in testbench.fp_adder.\n/tmp/tmpi0dp47x0.sv:10:      : res is declared here as wire.\n/tmp/tmpi0dp47x0.sv:28: error: Bit 31 is already driven.\n4 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpipspwl6n /tmp/tmpipspwl6n.sv /work/turtle/tasks/RTLLM/Arithmetic/Divider/div_16bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Arithmetic/Divider/div_16bit/testbench.v:34: warning: Port 4 (odd) of div_16bit expects 8 bits, got 16.\n/work/turtle/tasks/RTLLM/Arithmetic/Divider/div_16bit/testbench.v:34:        : Padding 8 high bits of the expression.\n'}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Test completed with         100 /100 failures===========\n/work/turtle/tasks/RTLLM/Arithmetic/Divider/div_16bit/testbench.v:31: $finish called at 1000000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpo38yyslk /tmp/tmpo38yyslk.sv /work/turtle/tasks/RTLLM/Arithmetic/Adder/adder_pipe_64bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 3, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Arithmetic/Adder/adder_pipe_64bit/testbench.v:66: error: parameter `DATA_WIDTH` not found in `tb_adder64.u_pip_add64`.\n/work/turtle/tasks/RTLLM/Arithmetic/Adder/adder_pipe_64bit/testbench.v:67: error: parameter `STG_WIDTH` not found in `tb_adder64.u_pip_add64`.\n3 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpyf5evq6g /tmp/tmpyf5evq6g.sv /work/turtle/tasks/RTLLM/Arithmetic/Adder/adder_32bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 4, 'stdout': '', 'stderr': '/tmp/tmpyf5evq6g.sv:13: syntax error\n/tmp/tmpyf5evq6g.sv:13: error: Syntax error in continuous assignment\n/tmp/tmpyf5evq6g.sv:20: syntax error\n/tmp/tmpyf5evq6g.sv:20: error: Syntax error in continuous assignment\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp2ng_0rwa /tmp/tmp2ng_0rwa.sv /work/turtle/tasks/RTLLM/Arithmetic/Adder/adder_16bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 3, 'stdout': '', 'stderr': '/tmp/tmp2ng_0rwa.sv:10: error: Unknown module type: adder_8bit\n/tmp/tmp2ng_0rwa.sv:18: error: Unknown module type: adder_8bit\n3 error(s) during elaboration.\n*** These modules were missing:\n        adder_8bit referenced 2 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp9zcoqk8j /tmp/tmp9zcoqk8j.sv /work/turtle/tasks/RTLLM/Arithmetic/Adder/adder_bcd/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': 'Test failed: A =  8, B =  7, Cin = 1 | Expected = 22, Got = 10, Cout = 1\nTest failed: A =  7, B =  7, Cin = 1 | Expected = 21, Got =  9, Cout = 1\nTest failed: A =  9, B =  8, Cin = 1 | Expected = 24, Got = 12, Cout = 1\nTest failed: A =  9, B =  2, Cin = 1 | Expected = 18, Got =  6, Cout = 1\nTest failed: A =  5, B =  5, Cin = 0 | Expected = 16, Got =  4, Cout = 1\nTest failed: A =  9, B =  6, Cin = 0 | Expected = 21, Got =  9, Cout = 1\nTest failed: A =  8, B =  3, Cin = 0 | Expected = 17, Got =  5, Cout = 1\nTest failed: A =  3, B =  9, Cin = 1 | Expected = 19, Got =  7, Cout = 1\nTest failed: A =  6, B =  4, Cin = 1 | Expected = 17, Got =  5, Cout = 1\nTest failed: A =  8, B =  2, Cin = 1 | Expected = 17, Got =  5, Cout = 1\nTest failed: A =  9, B =  7, Cin = 0 | Expected = 22, Got = 10, Cout = 1\nTest failed: A =  0, B =  9, Cin = 1 | Expected = 16, Got =  4, Cout = 1\nTest failed: A =  6, B =  6, Cin = 0 | Expected = 18, Got =  6, Cout = 1\nTest failed: A =  4, B =  8, Cin = 1 | Expected = 19, Got =  7, Cout = 1\nTe', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp0nvb299_ /tmp/tmp0nvb299_.sv /work/turtle/tasks/RTLLM/Arithmetic/Adder/adder_8bit/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 9, 'stdout': '', 'stderr': '/tmp/tmp0nvb299_.sv:23: error: Unknown module type: full_adder\n/tmp/tmp0nvb299_.sv:24: error: Unknown module type: full_adder\n/tmp/tmp0nvb299_.sv:25: error: Unknown module type: full_adder\n/tmp/tmp0nvb299_.sv:26: error: Unknown module type: full_adder\n/tmp/tmp0nvb299_.sv:27: error: Unknown module type: full_adder\n/tmp/tmp0nvb299_.sv:28: error: Unknown module type: full_adder\n/tmp/tmp0nvb299_.sv:29: error: Unknown module type: full_adder\n/tmp/tmp0nvb299_.sv:30: error: Unknown module type: full_adder\n9 error(s) during elaboration.\n*** These modules were missing:\n        full_adder referenced 8 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpeoxqzlc5 /tmp/tmpeoxqzlc5.sv /work/turtle/tasks/RTLLM/Arithmetic/Accumulator/accu/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Error===========\n/work/turtle/tasks/RTLLM/Arithmetic/Accumulator/accu/testbench.v:85: $finish called at 150000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpq7_o1k6u /tmp/tmpq7_o1k6u.sv /work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 16, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:1: error: timescale directive cannot be inside a module definition.\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:3: syntax error\n/tmp/tmpq7_o1k6u.sv:58: error: Malformed conditional expression.\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:5: error: Malformed statement\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:6: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:6: error: Malformed statement\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:8: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:13: error: Malformed statement\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_detector/testbench.v:14: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/sequence_'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp6l7_0qa1 /tmp/tmp6l7_0qa1.sv /work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 19, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:1: error: timescale directive cannot be inside a module definition.\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:3: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:3: error: Malformed statement\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:5: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:5: error: Malformed statement\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:6: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:6: error: Malformed statement\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:7: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:7: error: Malformed statement\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fsm/testbench.v:9: syntax error\n/work/turtle/tasks/RTLLM/Control/Finite_State_Machine/fs'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp13mx49_h /tmp/tmp13mx49_h.sv /work/turtle/tasks/RTLLM/Control/Counter/JC_counter/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Error===========\n/work/turtle/tasks/RTLLM/Control/Counter/JC_counter/testbench.v:59: $finish called at 1310 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpj6sjrov7 /tmp/tmpj6sjrov7.sv /work/turtle/tasks/RTLLM/Control/Counter/ring_counter/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': 'Failed at i= 4, out=00000001, expected=00001000\nFailed at i= 5, out=00000010, expected=00010000\nFailed at i= 6, out=00000100, expected=00100000\nFailed at i= 7, out=00000001, expected=01000000\nFailed at i= 8, out=00000010, expected=10000000\nFailed at i= 9, out=00000100, expected=00000001\n=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Control/Counter/ring_counter/testbench.v:51: $finish called at 95 (1s)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / ring_counter / generation_1...
+✅ model_name / ring_counter / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp7cbvcqhx /tmp/tmp7cbvcqhx.sv /work/turtle/tasks/RTLLM/Control/Counter/up_down_counter/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Control/Counter/up_down_counter/testbench.v:53: $finish called at 620 (1s)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / up_down_counter / generation_1...
+✅ model_name / up_down_counter / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp6fb2i2h3 /tmp/tmp6fb2i2h3.sv /work/turtle/tasks/RTLLM/Control/Counter/counter_12/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Control/Counter/counter_12/testbench.v:49: $finish called at 430000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / counter_12 / generation_1...
+✅ model_name / counter_12 / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpovqbymip /tmp/tmpovqbymip.sv /work/turtle/tasks/RTLLM/Memory/Shifter/barrel_shifter/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 4, 'stdout': '', 'stderr': '/tmp/tmpovqbymip.sv:35: error: Unknown module type: mux2X1\n/tmp/tmpovqbymip.sv:36: error: Unknown module type: mux2X1\n/tmp/tmpovqbymip.sv:37: error: Unknown module type: mux2X1\n4 error(s) during elaboration.\n*** These modules were missing:\n        mux2X1 referenced 3 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpy0gwt3j2 /tmp/tmpy0gwt3j2.sv /work/turtle/tasks/RTLLM/Memory/Shifter/LFSR/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Memory/Shifter/LFSR/testbench.v:6: warning: Port 1 (clk) of LFSR expects 1 bits, got 4.\n/work/turtle/tasks/RTLLM/Memory/Shifter/LFSR/testbench.v:6:        : Pruning 3 high bits of the expression.\n/work/turtle/tasks/RTLLM/Memory/Shifter/LFSR/testbench.v:6: warning: Port 3 (out) of LFSR expects 4 bits, got 1.\n/work/turtle/tasks/RTLLM/Memory/Shifter/LFSR/testbench.v:6:        : Padding 3 high bits of the port.\n/work/turtle/tasks/RTLLM/Memory/Shifter/LFSR/testbench.v:11: error: rst_tb Unable to assign to unresolved wires.\n/work/turtle/tasks/RTLLM/Memory/Shifter/LFSR/testbench.v:14: error: rst_tb Unable to assign to unresolved wires.\n2 error(s) during elaboration.\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpy3wb1er1 /tmp/tmpy3wb1er1.sv /work/turtle/tasks/RTLLM/Memory/Shifter/right_shifter/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Failed===========\n/work/turtle/tasks/RTLLM/Memory/Shifter/right_shifter/testbench.v:45: $finish called at 90 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmplkwdycja /tmp/tmplkwdycja.sv /work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 31, 'stdout': '', 'stderr': '/tmp/tmplkwdycja.sv:22: syntax error\n/tmp/tmplkwdycja.sv:22: error: Malformed statement\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:1: error: timescale directive cannot be inside a module definition.\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:3: syntax error\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:3: error: Malformed statement\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:6: syntax error\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:6: error: Malformed statement\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:7: syntax error\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:7: error: Malformed statement\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:8: syntax error\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:8: error: Malformed statement\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:9: syntax error\n/work/turtle/tasks/RTLLM/Memory/LIFO/LIFObuffer/testbench.v:9: error'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpg28k79hv /tmp/tmpg28k79hv.sv /work/turtle/tasks/RTLLM/Miscellaneous/Signal_generation/square_wave/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Miscellaneous/Signal_generation/square_wave/testbench.v:9: warning: Port 2 (freq) of square_wave expects 8 bits, got 9.\n/work/turtle/tasks/RTLLM/Miscellaneous/Signal_generation/square_wave/testbench.v:9:        : Pruning 1 high bits of the expression.\n'}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Signal_generation/square_wave/testbench.v:36: $finish called at 1000 (1s)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / square_wave / generation_1...
+✅ model_name / square_wave / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp7a_0iz4a /tmp/tmp7a_0iz4a.sv /work/turtle/tasks/RTLLM/Miscellaneous/Signal_generation/signal_generator/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Signal_generation/signal_generator/testbench.v:53: $finish called at 1010 (1s)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / signal_generator / generation_1...
+✅ model_name / signal_generator / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpn_48cyoy /tmp/tmpn_48cyoy.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/edge_detect/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/edge_detect/testbench.v:67: $finish called at 85 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / edge_detect / generation_1...
+✅ model_name / edge_detect / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp6m6u6l4c /tmp/tmp6m6u6l4c.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/calendar/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/calendar/testbench.v:4050: $finish called at 40035000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / calendar / generation_1...
+✅ model_name / calendar / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpdpkdeo8k /tmp/tmpdpkdeo8k.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/parallel2serial/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Test completed with          97 /100 failures===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/parallel2serial/testbench.v:63: $finish called at 10005 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpk2sfyoov /tmp/tmpk2sfyoov.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/pulse_detect/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Error===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/pulse_detect/testbench.v:43: $finish called at 148 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpyv34pktj /tmp/tmpyv34pktj.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/traffic_light/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 5, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Miscellaneous/Others/traffic_light/testbench.v:1: error: timescale directive cannot be inside a module definition.\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/traffic_light/testbench.v:3: syntax error\n/tmp/tmpyv34pktj.sv:74: error: Malformed event control expression.\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/traffic_light/testbench.v:22: error: Malformed statement\n/tmp/tmpyv34pktj.sv:74: error: Invalid event control.\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmplha82xp7 /tmp/tmplha82xp7.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/width_8to16/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/width_8to16/testbench.v:48: $finish called at 100 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / width_8to16 / generation_1...
+✅ model_name / width_8to16 / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpx0ex_s9t /tmp/tmpx0ex_s9t.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/synchronizer/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/synchronizer/testbench.v:74: $finish called at 1005 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / synchronizer / generation_1...
+✅ model_name / synchronizer / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp__dgflt2 /tmp/tmp__dgflt2.sv /work/turtle/tasks/RTLLM/Miscellaneous/Others/serial2parallel/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Error===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Others/serial2parallel/testbench.v:60: $finish called at 237 (1s)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpk185ektk /tmp/tmpk185ektk.sv /work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/pe/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / pe / generation_1...
+✅ model_name / pe / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmprxcs1onf /tmp/tmprxcs1onf.sv /work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/instr_reg/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/instr_reg/testbench.v:78: $finish called at 135000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / instr_reg / generation_1...
+✅ model_name / instr_reg / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpketpitvc /tmp/tmpketpitvc.sv /work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/ROM/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': 'Starting ROM Testbench...\n=========== Your Design Passed ===========\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/ROM/testbench.v:56: $finish called at 40 (1s)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / ROM / generation_1...
+✅ model_name / ROM / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp9kxm2xbn /tmp/tmp9kxm2xbn.sv /work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/clkgenerator/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': "/tmp/tmp9kxm2xbn.sv:10: error: Unable to bind wire/reg/memory `rst_n' in `clkgenerator_tb.clkgenerator_inst'\n/tmp/tmp9kxm2xbn.sv:10: error: Unable to elaborate condition expression.\n2 error(s) during elaboration.\n"}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpuia0ojpi /tmp/tmpuia0ojpi.sv /work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 73, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:1: error: timescale directive cannot be inside a module definition.\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:3: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:3: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:5: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:5: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:6: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:6: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:7: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:7: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:8: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/alu/testbench.v:8: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpsnatlxlr /tmp/tmpsnatlxlr.sv /work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v:21: warning: Port 4 (write_addr) of RAM expects 3 bits, got 8.\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v:21:        : Pruning 5 high bits of the expression.\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v:21: warning: Port 7 (read_addr) of RAM expects 3 bits, got 8.\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v:21:        : Pruning 5 high bits of the expression.\n'}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Your Design Passed===========\n/work/turtle/tasks/RTLLM/Miscellaneous/RISC-V/RAM/testbench.v:79: $finish called at 11000 (1ns)\n', 'stderr': ''}
+----------------------------------------------------------------------
+
+Processing model_name / RAM / generation_1...
+✅ model_name / RAM / generation_1: Success
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmppo8n8o66 /tmp/tmppo8n8o66.sv /work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyeven/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 2, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyeven/testbench.v:10: error: Unknown module type: freq_divbyeven\n2 error(s) during elaboration.\n*** These modules were missing:\n        freq_divbyeven referenced 1 times.\n***\n'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpzzl66apc /tmp/tmpzzl66apc.sv /work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 23, 'stdout': '', 'stderr': '/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:1: error: timescale directive cannot be inside a module definition.\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:2: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:2: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:4: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:4: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:5: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:5: error: Malformed statement\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:7: syntax error\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyfrac/testbench.v:7: error: Malformed statement\n/work/turtle/tas'}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmp6ulnf9iy /tmp/tmp6ulnf9iy.sv /work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_div/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '===========Error===========          4\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_div/testbench.v:46: $finish called at 1035 (1s)\n', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------IVERILOG COMMAND------------------------------
+iverilog -g2012 -o /tmp/tmpk2h03n6_ /tmp/tmpk2h03n6_.sv /work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyodd/testbench.v
+----------------------------------------------------------------------
+------------------------------COMPILE RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': '', 'stderr': ''}
+----------------------------------------------------------------------
+------------------------------SIM RESULT------------------------------
+{'timeout': False, 'exit_code': 0, 'stdout': 'Failed at          1: clk=1, clk_div=0 (expected           1)\nFailed at          2: clk=0, clk_div=0 (expected           1)\nFailed at          3: clk=1, clk_div=0 (expected           1)\nFailed at          4: clk=0, clk_div=0 (expected           1)\nFailed at          5: clk=1, clk_div=0 (expected           1)\nFailed at          7: clk=1, clk_div=1 (expected           0)\nFailed at          8: clk=0, clk_div=1 (expected           0)\nFailed at          9: clk=1, clk_div=1 (expected           0)\nFailed at         10: clk=0, clk_div=1 (expected           0)\nFailed at         13: clk=1, clk_div=0 (expected           1)\nFailed at         14: clk=0, clk_div=0 (expected           1)\nFailed at         15: clk=1, clk_div=0 (expected           1)\nFailed at         19: clk=1, clk_div=1 (expected           0)\n=========== Test completed with          13/20 failures ===========\n/work/turtle/tasks/RTLLM/Miscellaneous/Frequency_divider/freq_divbyodd/testbench.v:27: $finish called at 130000 (1ps)\n', 'stderr': ''}
+----------------------------------------------------------------------
+i: multi_8bit, S_i: [0.0005312219145707786]
+-------------------------------------------------
+Processing multi_8bit. Original S_i: [0.0005312219145707786]
+Filtered S_i: [0.0005312219145707786, 0.0011272806441411376, 0.0011272806441411376, 0.0011272806441411376, 0.0011272806441411376]
+Golden solution: 0.0005636403220705688
+Adding term 1.7884967749004546 to the total sum
+-------------------------------------------------
+i: sub_64bit, S_i: [0.00039419770473614335]
+-------------------------------------------------
+Processing sub_64bit. Original S_i: [0.00039419770473614335]
+Filtered S_i: [0.00039419770473614335, 0.0007733317906968296, 0.0007733317906968296, 0.0007733317906968296, 0.0007733317906968296]
+Golden solution: 0.0003866658953484148
+Adding term 1.8038957712476513 to the total sum
+-------------------------------------------------
+i: comparator_4bit, S_i: [8.901973160391208e-06]
+-------------------------------------------------
+Processing comparator_4bit. Original S_i: [8.901973160391208e-06]
+Filtered S_i: [8.901973160391208e-06, 1.7395954273524694e-05, 1.7395954273524694e-05, 1.7395954273524694e-05, 1.7395954273524694e-05]
+Golden solution: 8.697977136762347e-06
+Adding term 1.8046906543997836 to the total sum
+-------------------------------------------------
+i: comparator_3bit, S_i: [7.680383532715496e-06]
+-------------------------------------------------
+Processing comparator_3bit. Original S_i: [7.680383532715496e-06]
+Filtered S_i: [7.680383532715496e-06, 1.528994835098274e-05, 1.528994835098274e-05, 1.528994835098274e-05, 1.528994835098274e-05]
+Golden solution: 7.64497417549137e-06
+Adding term 1.8009263434097043 to the total sum
+-------------------------------------------------
+i: fixed_point_substractor, S_i: [0.0001366634969599545]
+-------------------------------------------------
+Processing fixed_point_substractor. Original S_i: [0.0001366634969599545]
+Filtered S_i: [0.0001366634969599545, 0.0006649756687693298, 0.0006649756687693298, 0.0006649756687693298, 0.0006649756687693298]
+Golden solution: 0.0003324878343846649
+Adding term 1.6822066149956298 to the total sum
+-------------------------------------------------
+i: ring_counter, S_i: [1.4690702300867997e-05]
+-------------------------------------------------
+Processing ring_counter. Original S_i: [1.4690702300867997e-05]
+Filtered S_i: [1.4690702300867997e-05, 7.839672616682947e-05, 7.839672616682947e-05, 7.839672616682947e-05, 7.839672616682947e-05]
+Golden solution: 3.9198363083414733e-05
+Adding term 1.6749556927650573 to the total sum
+-------------------------------------------------
+i: up_down_counter, S_i: [0.000480403658002615]
+-------------------------------------------------
+Processing up_down_counter. Original S_i: [0.000480403658002615]
+Filtered S_i: [0.000480403658002615, 0.0006545382784679532, 0.0006545382784679532, 0.0006545382784679532, 0.0006545382784679532]
+Golden solution: 0.0003272691392339766
+Adding term 1.8935832319094144 to the total sum
+-------------------------------------------------
+i: counter_12, S_i: [8.042228000704199e-05]
+-------------------------------------------------
+Processing counter_12. Original S_i: [8.042228000704199e-05]
+Filtered S_i: [8.042228000704199e-05, 0.00016084456001408398, 0.00016084456001408398, 0.00016084456001408398, 0.00016084456001408398]
+Golden solution: 8.042228000704199e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: square_wave, S_i: [0.00019138108473271132]
+-------------------------------------------------
+Processing square_wave. Original S_i: [0.00019138108473271132]
+Filtered S_i: [0.00019138108473271132, 0.00038276216946542263, 0.00038276216946542263, 0.00038276216946542263, 0.00038276216946542263]
+Golden solution: 0.00019138108473271132
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: signal_generator, S_i: [2.8690310500678606e-05]
+-------------------------------------------------
+Processing signal_generator. Original S_i: [2.8690310500678606e-05]
+Filtered S_i: [2.8690310500678606e-05, 6.696785567328334e-05, 6.696785567328334e-05, 6.696785567328334e-05, 6.696785567328334e-05]
+Golden solution: 3.348392783664167e-05
+Adding term 1.771367652210041 to the total sum
+-------------------------------------------------
+i: edge_detect, S_i: [1.702456211205572e-05]
+-------------------------------------------------
+Processing edge_detect. Original S_i: [1.702456211205572e-05]
+Filtered S_i: [1.702456211205572e-05, 3.404912422411144e-05, 3.404912422411144e-05, 3.404912422411144e-05, 3.404912422411144e-05]
+Golden solution: 1.702456211205572e-05
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: calendar, S_i: [8.854315819917247e-05]
+-------------------------------------------------
+Processing calendar. Original S_i: [8.854315819917247e-05]
+Filtered S_i: [8.854315819917247e-05, 0.00017708636005409062, 0.00017708636005409062, 0.00017708636005409062, 0.00017708636005409062]
+Golden solution: 8.854318002704531e-05
+Adding term 1.79999995069553 to the total sum
+-------------------------------------------------
+i: width_8to16, S_i: [0.000280905602267012]
+-------------------------------------------------
+Processing width_8to16. Original S_i: [0.000280905602267012]
+Filtered S_i: [0.000280905602267012, 0.0005595209659077227, 0.0005595209659077227, 0.0005595209659077227, 0.0005595209659077227]
+Golden solution: 0.00027976048295386136
+Adding term 1.800818642648211 to the total sum
+-------------------------------------------------
+i: synchronizer, S_i: [3.492382529657334e-05]
+-------------------------------------------------
+Processing synchronizer. Original S_i: [3.492382529657334e-05]
+Filtered S_i: [3.492382529657334e-05, 6.984526407904923e-05, 6.984526407904923e-05, 6.984526407904923e-05, 6.984526407904923e-05]
+Golden solution: 3.4922632039524615e-05
+Adding term 1.80000683371773 to the total sum
+-------------------------------------------------
+i: pe, S_i: [0.015884894877672195]
+-------------------------------------------------
+Processing pe. Original S_i: [0.015884894877672195]
+Filtered S_i: [0.015884894877672195, 0.03176978975534439, 0.03176978975534439, 0.03176978975534439, 0.03176978975534439]
+Golden solution: 0.015884894877672195
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: instr_reg, S_i: [0.00013183147530071437]
+-------------------------------------------------
+Processing instr_reg. Original S_i: [0.00013183147530071437]
+Filtered S_i: [0.00013183147530071437, 0.00026332182460464537, 0.00026332182460464537, 0.00026332182460464537, 0.00026332182460464537]
+Golden solution: 0.00013166091230232269
+Adding term 1.800259094359 to the total sum
+-------------------------------------------------
+i: ROM, S_i: [1.6838056353662978e-06]
+-------------------------------------------------
+Processing ROM. Original S_i: [1.6838056353662978e-06]
+Filtered S_i: [1.6838056353662978e-06, 1.5714818800915964e-05, 1.5714818800915964e-05, 1.5714818800915964e-05, 1.5714818800915964e-05]
+Golden solution: 7.857409400457982e-06
+Adding term 1.6428590531446192 to the total sum
+-------------------------------------------------
+i: RAM, S_i: [0.0004177309456281364]
+-------------------------------------------------
+Processing RAM. Original S_i: [0.0004177309456281364]
+Filtered S_i: [0.0004177309456281364, 0.0012462548911571503, 0.0012462548911571503, 0.0012462548911571503, 0.0012462548911571503]
+Golden solution: 0.0006231274455785751
+Adding term 1.7340756047874837 to the total sum
+-------------------------------------------------
+Penalizing 29 missing problems
+i: multi_8bit, S_i: [11.426468761265294]
+-------------------------------------------------
+Processing multi_8bit. Original S_i: [11.426468761265294]
+Filtered S_i: [11.426468761265294, 23.49797889443766, 23.49797889443766, 23.49797889443766, 23.49797889443766]
+Golden solution: 11.74898944721883
+Adding term 1.7945098140158788 to the total sum
+-------------------------------------------------
+i: sub_64bit, S_i: [8.371492846999384]
+-------------------------------------------------
+Processing sub_64bit. Original S_i: [8.371492846999384]
+Filtered S_i: [8.371492846999384, 16.830687986354025, 16.830687986354025, 16.830687986354025, 16.830687986354025]
+Golden solution: 8.415343993177013
+Adding term 1.798957828789573 to the total sum
+-------------------------------------------------
+i: comparator_4bit, S_i: [5.589144638638493]
+-------------------------------------------------
+Processing comparator_4bit. Original S_i: [5.589144638638493]
+Filtered S_i: [5.589144638638493, 11.579024733438219, 11.579024733438219, 11.579024733438219, 11.579024733438219]
+Golden solution: 5.7895123667191095
+Adding term 1.7930782520050417 to the total sum
+-------------------------------------------------
+i: comparator_3bit, S_i: [5.064925733294002]
+-------------------------------------------------
+Processing comparator_3bit. Original S_i: [5.064925733294002]
+Filtered S_i: [5.064925733294002, 11.12169721130842, 11.12169721130842, 11.12169721130842, 11.12169721130842]
+Golden solution: 5.56084860565421
+Adding term 1.7821637700456021 to the total sum
+-------------------------------------------------
+i: fixed_point_substractor, S_i: [8.220064195317546]
+-------------------------------------------------
+Processing fixed_point_substractor. Original S_i: [8.220064195317546]
+Filtered S_i: [8.220064195317546, 16.754107464484797, 16.754107464484797, 16.754107464484797, 16.754107464484797]
+Golden solution: 8.377053732242398
+Adding term 1.796251915245079 to the total sum
+-------------------------------------------------
+i: ring_counter, S_i: [3.32790360244067]
+-------------------------------------------------
+Processing ring_counter. Original S_i: [3.32790360244067]
+Filtered S_i: [3.32790360244067, 5.8190871546193215, 5.8190871546193215, 5.8190871546193215, 5.8190871546193215]
+Golden solution: 2.9095435773096607
+Adding term 1.8287577768825067 to the total sum
+-------------------------------------------------
+i: up_down_counter, S_i: [5.134432802028688]
+-------------------------------------------------
+Processing up_down_counter. Original S_i: [5.134432802028688]
+Filtered S_i: [5.134432802028688, 6.998323452163097, 6.998323452163097, 6.998323452163097, 6.998323452163097]
+Golden solution: 3.4991617260815486
+Adding term 1.8934664473355656 to the total sum
+-------------------------------------------------
+i: counter_12, S_i: [2.8607306222500473]
+-------------------------------------------------
+Processing counter_12. Original S_i: [2.8607306222500473]
+Filtered S_i: [2.8607306222500473, 5.7214612445000945, 5.7214612445000945, 5.7214612445000945, 5.7214612445000945]
+Golden solution: 2.8607306222500473
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: square_wave, S_i: [4.9642222848634745]
+-------------------------------------------------
+Processing square_wave. Original S_i: [4.9642222848634745]
+Filtered S_i: [4.9642222848634745, 9.928444569726949, 9.928444569726949, 9.928444569726949, 9.928444569726949]
+Golden solution: 4.9642222848634745
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: signal_generator, S_i: [2.795411314882684]
+-------------------------------------------------
+Processing signal_generator. Original S_i: [2.795411314882684]
+Filtered S_i: [2.795411314882684, 5.637353410311018, 5.637353410311018, 5.637353410311018, 5.637353410311018]
+Golden solution: 2.818676705155509
+Adding term 1.798349197676323 to the total sum
+-------------------------------------------------
+i: edge_detect, S_i: [2.754913930512693]
+-------------------------------------------------
+Processing edge_detect. Original S_i: [2.754913930512693]
+Filtered S_i: [2.754913930512693, 5.509827861025386, 5.509827861025386, 5.509827861025386, 5.509827861025386]
+Golden solution: 2.754913930512693
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: calendar, S_i: [2.7897771549179717]
+-------------------------------------------------
+Processing calendar. Original S_i: [2.7897771549179717]
+Filtered S_i: [2.7897771549179717, 5.5795543098359435, 5.5795543098359435, 5.5795543098359435, 5.5795543098359435]
+Golden solution: 2.7897771549179717
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: width_8to16, S_i: [2.9384973064323328]
+-------------------------------------------------
+Processing width_8to16. Original S_i: [2.9384973064323328]
+Filtered S_i: [2.9384973064323328, 5.89764120899294, 5.89764120899294, 5.89764120899294, 5.89764120899294]
+Golden solution: 2.94882060449647
+Adding term 1.7992998354631409 to the total sum
+-------------------------------------------------
+i: synchronizer, S_i: [2.327575309483003]
+-------------------------------------------------
+Processing synchronizer. Original S_i: [2.327575309483003]
+Filtered S_i: [2.327575309483003, 4.655150618966006, 4.655150618966006, 4.655150618966006, 4.655150618966006]
+Golden solution: 2.327575309483003
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: pe, S_i: [10.055828232506022]
+-------------------------------------------------
+Processing pe. Original S_i: [10.055828232506022]
+Filtered S_i: [10.055828232506022, 20.111656465012043, 20.111656465012043, 20.111656465012043, 20.111656465012043]
+Golden solution: 10.055828232506022
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: instr_reg, S_i: [2.9089818044433127]
+-------------------------------------------------
+Processing instr_reg. Original S_i: [2.9089818044433127]
+Filtered S_i: [2.9089818044433127, 5.921140634285974, 5.921140634285974, 5.921140634285974, 5.921140634285974]
+Golden solution: 2.960570317142987
+Adding term 1.7965149611613036 to the total sum
+-------------------------------------------------
+i: ROM, S_i: [5.1545957849937585]
+-------------------------------------------------
+Processing ROM. Original S_i: [5.1545957849937585]
+Filtered S_i: [5.1545957849937585, 9.277523456515173, 9.277523456515173, 9.277523456515173, 9.277523456515173]
+Golden solution: 4.638761728257586
+Adding term 1.8222401617911914 to the total sum
+-------------------------------------------------
+i: RAM, S_i: [3.468918361856999]
+-------------------------------------------------
+Processing RAM. Original S_i: [3.468918361856999]
+Filtered S_i: [3.468918361856999, 8.30289860366136, 8.30289860366136, 8.30289860366136, 8.30289860366136]
+Golden solution: 4.15144930183068
+Adding term 1.767118425862857 to the total sum
+-------------------------------------------------
+Penalizing 29 missing problems
+i: multi_8bit, S_i: [3460.8192]
+-------------------------------------------------
+Processing multi_8bit. Original S_i: [3460.8192]
+Filtered S_i: [3460.8192, 6931.648, 6931.648, 6931.648, 6931.648]
+Golden solution: 3465.824
+Adding term 1.7997111913357402 to the total sum
+-------------------------------------------------
+i: sub_64bit, S_i: [4061.3952]
+-------------------------------------------------
+Processing sub_64bit. Original S_i: [4061.3952]
+Filtered S_i: [4061.3952, 8182.848, 8182.848, 8182.848, 8182.848]
+Golden solution: 4091.424
+Adding term 1.798532110091743 to the total sum
+-------------------------------------------------
+i: comparator_4bit, S_i: [132.6272]
+-------------------------------------------------
+Processing comparator_4bit. Original S_i: [132.6272]
+Filtered S_i: [132.6272, 250.24, 250.24, 250.24, 250.24]
+Golden solution: 125.12
+Adding term 1.8119999999999998 to the total sum
+-------------------------------------------------
+i: comparator_3bit, S_i: [102.5984]
+-------------------------------------------------
+Processing comparator_3bit. Original S_i: [102.5984]
+Filtered S_i: [102.5984, 210.2016, 210.2016, 210.2016, 210.2016]
+Golden solution: 105.1008
+Adding term 1.7952380952380953 to the total sum
+-------------------------------------------------
+i: fixed_point_substractor, S_i: [1969.3888]
+-------------------------------------------------
+Processing fixed_point_substractor. Original S_i: [1969.3888]
+Filtered S_i: [1969.3888, 7647.3344, 7647.3344, 7647.3344, 7647.3344]
+Golden solution: 3823.6672
+Adding term 1.7030104712041885 to the total sum
+-------------------------------------------------
+i: ring_counter, S_i: [146.3904]
+-------------------------------------------------
+Processing ring_counter. Original S_i: [146.3904]
+Filtered S_i: [146.3904, 480.4608, 480.4608, 480.4608, 480.4608]
+Golden solution: 240.2304
+Adding term 1.721875 to the total sum
+-------------------------------------------------
+i: up_down_counter, S_i: [1212.4128]
+-------------------------------------------------
+Processing up_down_counter. Original S_i: [1212.4128]
+Filtered S_i: [1212.4128, 2374.7776, 2374.7776, 2374.7776, 2374.7776]
+Golden solution: 1187.3888
+Adding term 1.8042149631190727 to the total sum
+-------------------------------------------------
+i: counter_12, S_i: [190.1824]
+-------------------------------------------------
+Processing counter_12. Original S_i: [190.1824]
+Filtered S_i: [190.1824, 380.3648, 380.3648, 380.3648, 380.3648]
+Golden solution: 190.1824
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: square_wave, S_i: [650.624]
+-------------------------------------------------
+Processing square_wave. Original S_i: [650.624]
+Filtered S_i: [650.624, 1301.248, 1301.248, 1301.248, 1301.248]
+Golden solution: 650.624
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: signal_generator, S_i: [417.9008]
+-------------------------------------------------
+Processing signal_generator. Original S_i: [417.9008]
+Filtered S_i: [417.9008, 1008.4672, 1008.4672, 1008.4672, 1008.4672]
+Golden solution: 504.2336
+Adding term 1.7657568238213397 to the total sum
+-------------------------------------------------
+i: edge_detect, S_i: [96.3424]
+-------------------------------------------------
+Processing edge_detect. Original S_i: [96.3424]
+Filtered S_i: [96.3424, 192.6848, 192.6848, 192.6848, 192.6848]
+Golden solution: 96.3424
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: calendar, S_i: [985.9456]
+-------------------------------------------------
+Processing calendar. Original S_i: [985.9456]
+Filtered S_i: [985.9456, 1959.3792, 1959.3792, 1959.3792, 1959.3792]
+Golden solution: 979.6896
+Adding term 1.8012771392081737 to the total sum
+-------------------------------------------------
+i: width_8to16, S_i: [992.2016]
+-------------------------------------------------
+Processing width_8to16. Original S_i: [992.2016]
+Filtered S_i: [992.2016, 1974.3936, 1974.3936, 1974.3936, 1974.3936]
+Golden solution: 987.1968
+Adding term 1.8010139416983522 to the total sum
+-------------------------------------------------
+i: synchronizer, S_i: [334.0704]
+-------------------------------------------------
+Processing synchronizer. Original S_i: [334.0704]
+Filtered S_i: [334.0704, 668.1408, 668.1408, 668.1408, 668.1408]
+Golden solution: 334.0704
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: pe, S_i: [28762.5856]
+-------------------------------------------------
+Processing pe. Original S_i: [28762.5856]
+Filtered S_i: [28762.5856, 57525.1712, 57525.1712, 57525.1712, 57525.1712]
+Golden solution: 28762.5856
+Adding term 1.8 to the total sum
+-------------------------------------------------
+i: instr_reg, S_i: [618.0928]
+-------------------------------------------------
+Processing instr_reg. Original S_i: [618.0928]
+Filtered S_i: [618.0928, 1236.1856, 1236.1856, 1236.1856, 1236.1856]
+Golden solution: 618.0928
+Adding term 1.7999999999999998 to the total sum
+-------------------------------------------------
+i: ROM, S_i: [106.352]
+-------------------------------------------------
+Processing ROM. Original S_i: [106.352]
+Filtered S_i: [106.352, 142.6368, 142.6368, 142.6368, 142.6368]
+Golden solution: 71.3184
+Adding term 1.8982456140350876 to the total sum
+-------------------------------------------------
+i: RAM, S_i: [2630.0224]
+-------------------------------------------------
+Processing RAM. Original S_i: [2630.0224]
+Filtered S_i: [2630.0224, 7141.8496, 7141.8496, 7141.8496, 7141.8496]
+Golden solution: 3570.9248
+Adding term 1.747302032235459 to the total sum
+-------------------------------------------------
+Penalizing 29 missing problems
+{
+  "rtllm": {
+    "syntax": {
+      "pass@1": 61.7
+    },
+    "func": {
+      "pass@1": 40.43
+    },
+    "synthesis": {
+      "pass@1": 38.3
+    },
+    "power": 8.51,
+    "performance": 7.51,
+    "area": 7.98
+  },
+  "config": {
+    "prefix": "",
+    "do_sample": true,
+    "temperature": 0.2,
+    "top_k": 0,
+    "top_p": 0.95,
+    "n_samples": 1,
+    "eos": "<|endoftext|>",
+    "seed": 0,
+    "repetition_penalty": 1.0,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "model": "qwen2.5-coder:7b",
+    "use_auth_token": true,
+    "trust_remote_code": true,
+    "precision": "bf16",
+    "left_padding": false,
+    "provider": null,
+    "use_api": false,
+    "reasoning_effort": null,
+    "shuttle": null,
+    "gpu_memory_utilization": 0.9,
+    "swap_space": 64,
+    "continuous_batching_size": null,
+    "sequence_length_limit": null,
+    "tensor_parallel_size": 4,
+    "ip": null,
+    "port": null,
+    "tasks": "rtllm",
+    "instruction_tokens": null,
+    "metric_output_path": "./results/qwen2.5-coder_7b/rtllm//detail_report_rtllm.json",
+    "save_generations": true,
+    "save_generations_path": "/tmp/generations.json",
+    "save_references": true,
+    "save_references_path": "/tmp/references.json",
+    "prompt": null,
+    "limit": null,
+    "limit_start": 0,
+    "postprocess": true,
+    "allow_code_execution": true,
+    "generation_only": false,
+    "load_generations_path": "./results/qwen2.5-coder_7b/rtllm//rtllm.jsonl",
+    "load_data_path": null,
+    "rtlrepo_use_train_ds": false,
+    "few_shot": 0,
+    "syntax_path": null,
+    "path_data_benchmark": null,
+    "path_dataset_test": null,
+    "path_temporary_files": null,
+    "base_path_models": null,
+    "max_length_generation": 512,
+    "max_tokens": null,
+    "rtllm_version": "2.0",
+    "generate_report": true,
+    "compute_ppl_only": false,
+    "simulator": "icarus"
+  }
+}

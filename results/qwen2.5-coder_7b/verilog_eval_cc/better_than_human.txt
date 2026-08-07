@@ -1,0 +1,15 @@
+*********BETTER THAN HUMAN**********
+S_Prob114 generations power:
+x: 3.967211341660004e-06 in S_i: [3.967211341660004e-06]
+Reference value: 3.9818974073568825e-06
+
+*********BETTER THAN HUMAN**********
+S_Prob081 generations power:
+x: 2.5810809347603936e-06 in S_i: [2.5810809347603936e-06]
+Reference value: 2.581081162134069e-06
+
+*********BETTER THAN HUMAN**********
+S_Prob114 generations area:
+x: 221.4624 in S_i: [221.4624]
+Reference value: 226.4672
+

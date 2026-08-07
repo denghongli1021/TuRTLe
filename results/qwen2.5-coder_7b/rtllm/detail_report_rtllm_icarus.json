@@ -1,0 +1,73 @@
+{
+  "rtllm": {
+    "syntax": {
+      "pass@1": 61.7
+    },
+    "func": {
+      "pass@1": 40.43
+    },
+    "synthesis": {
+      "pass@1": 38.3
+    },
+    "power": 8.51,
+    "performance": 7.51,
+    "area": 7.98
+  },
+  "config": {
+    "prefix": "",
+    "do_sample": true,
+    "temperature": 0.2,
+    "top_k": 0,
+    "top_p": 0.95,
+    "n_samples": 1,
+    "eos": "<|endoftext|>",
+    "seed": 0,
+    "repetition_penalty": 1.0,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "model": "qwen2.5-coder:7b",
+    "use_auth_token": true,
+    "trust_remote_code": true,
+    "precision": "bf16",
+    "left_padding": false,
+    "provider": null,
+    "use_api": false,
+    "reasoning_effort": null,
+    "shuttle": null,
+    "gpu_memory_utilization": 0.9,
+    "swap_space": 64,
+    "continuous_batching_size": null,
+    "sequence_length_limit": null,
+    "tensor_parallel_size": 4,
+    "ip": null,
+    "port": null,
+    "tasks": "rtllm",
+    "instruction_tokens": null,
+    "metric_output_path": "./results/qwen2.5-coder_7b/rtllm//detail_report_rtllm.json",
+    "save_generations": true,
+    "save_generations_path": "/tmp/generations.json",
+    "save_references": true,
+    "save_references_path": "/tmp/references.json",
+    "prompt": null,
+    "limit": null,
+    "limit_start": 0,
+    "postprocess": true,
+    "allow_code_execution": true,
+    "generation_only": false,
+    "load_generations_path": "./results/qwen2.5-coder_7b/rtllm//rtllm.jsonl",
+    "load_data_path": null,
+    "rtlrepo_use_train_ds": false,
+    "few_shot": 0,
+    "syntax_path": null,
+    "path_data_benchmark": null,
+    "path_dataset_test": null,
+    "path_temporary_files": null,
+    "base_path_models": null,
+    "max_length_generation": 512,
+    "max_tokens": null,
+    "rtllm_version": "2.0",
+    "generate_report": true,
+    "compute_ppl_only": false,
+    "simulator": "icarus"
+  }
+}
