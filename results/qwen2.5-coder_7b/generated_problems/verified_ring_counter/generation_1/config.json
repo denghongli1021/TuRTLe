@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "ring_counter",
+    "VERILOG_FILES": "dir::ring_counter.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

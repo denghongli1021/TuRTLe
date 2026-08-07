@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "multi_booth_8bit",
+    "VERILOG_FILES": "dir::multi_booth_8bit.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

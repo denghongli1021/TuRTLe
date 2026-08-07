@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "fixed_point_subtractor",
+    "VERILOG_FILES": "dir::fixed_point_subtractor.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": ""
+}

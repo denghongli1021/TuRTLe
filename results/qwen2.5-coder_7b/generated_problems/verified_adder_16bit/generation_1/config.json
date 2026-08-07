@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "adder_8bit",
+    "VERILOG_FILES": "dir::adder_8bit.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": ""
+}

@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "adder_pipe_64bit",
+    "VERILOG_FILES": "dir::adder_pipe_64bit.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

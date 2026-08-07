@@ -1,0 +1,28 @@
+[project]
+name = "turtle"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets>=5.0.1",
+    "evaluate>=0.4.6",
+    "fsspec>=2026.6.0",
+    "fuzzywuzzy>=0.18.0",
+    "huggingface-hub>=1.26.1",
+    "mosestokenizer>=1.2.1",
+    "openai>=2.53.0",
+    "pydantic>=2.13.4",
+    "pyext==0.7",
+    "python-levenshtein>=0.27.3",
+    "pyyaml>=6.0.3",
+    "tqdm>=4.70.0",
+    "transformers>=5.14.1",
+]
+
+[project.scripts]
+turtle = "turtle:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"

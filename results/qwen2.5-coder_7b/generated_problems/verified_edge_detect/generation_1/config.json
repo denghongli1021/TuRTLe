@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "edge_detect",
+    "VERILOG_FILES": "dir::edge_detect.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

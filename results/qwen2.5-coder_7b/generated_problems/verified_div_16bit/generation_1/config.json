@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "div_16bit",
+    "VERILOG_FILES": "dir::div_16bit.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": ""
+}

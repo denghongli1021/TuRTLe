@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "serial2parallel",
+    "VERILOG_FILES": "dir::serial2parallel.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

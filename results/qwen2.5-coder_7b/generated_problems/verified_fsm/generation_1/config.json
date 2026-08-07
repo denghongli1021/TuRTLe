@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "fsm",
+    "VERILOG_FILES": "dir::fsm.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "CLK"
+}

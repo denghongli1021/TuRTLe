@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "accu",
+    "VERILOG_FILES": "dir::accu.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

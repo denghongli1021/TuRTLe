@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "signal_generator",
+    "VERILOG_FILES": "dir::signal_generator.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "comparator_4bit",
+    "VERILOG_FILES": "dir::comparator_4bit.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": ""
+}

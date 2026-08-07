@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "freq_div",
+    "VERILOG_FILES": "dir::freq_div.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "CLK_in"
+}

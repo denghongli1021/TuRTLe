@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "pulse_detect",
+    "VERILOG_FILES": "dir::pulse_detect.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

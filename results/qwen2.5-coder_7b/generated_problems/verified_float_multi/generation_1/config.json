@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "float_multi",
+    "VERILOG_FILES": "dir::float_multi.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}

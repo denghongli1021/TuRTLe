@@ -1,0 +1,6 @@
+{
+    "DESIGN_NAME": "square_wave",
+    "VERILOG_FILES": "dir::square_wave.sv",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk"
+}
