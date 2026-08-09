@@ -12,6 +12,20 @@ venv/
 # uv
 .uv-cache/
 
+# Downloaded LoRA training datasets (large, reproducible via download)
+LoRA_train/CodeV-All/
+MG-Verilog/
+RTL-Coder_small/
+RTL-Coder-27k/
+VeriGen-GitHub-Corpus/
+
+# Generated LoRA training data (large, reproducible via scripts/)
+LoRA_train/merged_valid.jsonl
+LoRA_train/alpaca_format.jsonl
+LoRA_train/raw_code_pretrain.jsonl
+LoRA_train/checkpoints/
+
+
 # Logs
 *.log
 

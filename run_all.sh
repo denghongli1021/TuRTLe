@@ -3,14 +3,8 @@
 # ==========================================
 # ⚙️ 設定區 Config
 # ==========================================
-# 1. 要執行的 Task 任務清單 (用空白分隔)
-TASKS=(
-    "rtllm"
-    "notsotiny"
-    "verilog_eval_rtl"
-    "verilog_eval_cc"
-    "verigen"
-)
+# 1. 全部可用的 Task 清單 (預設值，沒指定要跑哪些 task 時就跑全部)
+ALL_TASKS="rtllm,notsotiny,verilog_eval_rtl,verilog_eval_cc,verigen"
 
 # 2. 預設模型 (若執行時沒帶參數則使用此預設值)
 DEFAULT_MODEL="qwen2.5-coder:7b"
@@ -18,6 +12,17 @@ MODEL=${1:-"$DEFAULT_MODEL"}
 
 # 3. 執行模式 (預設為 "all" 一條龍：API 生成 + Docker 評測)
 MODE=${2:-"all"}
+
+# 4. 要執行的 Task 任務清單，逗號分隔
+#    優先順序: 第 3 個參數 > TASKS 環境變數 > 預設全部
+#    例如: ./run_all.sh qwen2.5-coder:7b all "rtllm,verigen"
+#      或: TASKS="rtllm,verigen" ./run_all.sh
+TASK_SELECTION=${3:-${TASKS:-$ALL_TASKS}}
+IFS=',' read -ra TASKS <<< "$TASK_SELECTION"
+# 去除每個項目前後可能的空白
+for i in "${!TASKS[@]}"; do
+    TASKS[$i]=$(echo "${TASKS[$i]}" | xargs)
+done
 
 # ==========================================
 # 🚀 執行主流程

@@ -1,0 +1,65 @@
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations power:
+x: 0.0001278826966881752 in S_i: [0.0001278826966881752]
+Reference value: 0.0003324878343846649
+
+*********BETTER THAN HUMAN**********
+S_up_down_counter generations power:
+x: 0.0003269815933890641 in S_i: [0.0003269815933890641]
+Reference value: 0.0003272691392339766
+
+*********BETTER THAN HUMAN**********
+S_instr_reg generations power:
+x: 0.00010382076288806275 in S_i: [0.00010382076288806275]
+Reference value: 0.00013166091230232269
+
+*********BETTER THAN HUMAN**********
+S_sub_64bit generations performance:
+x: 8.307021750046824 in S_i: [8.307021750046824]
+Reference value: 8.415343993177013
+
+*********BETTER THAN HUMAN**********
+S_comparator_3bit generations performance:
+x: 5.064925733294002 in S_i: [5.064925733294002]
+Reference value: 5.56084860565421
+
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations performance:
+x: 6.710214573920261 in S_i: [6.710214573920261]
+Reference value: 8.377053732242398
+
+*********BETTER THAN HUMAN**********
+S_ring_counter generations performance:
+x: 2.7065885854192855 in S_i: [2.7065885854192855]
+Reference value: 2.9095435773096607
+
+*********BETTER THAN HUMAN**********
+S_width_8to16 generations performance:
+x: 2.9384973064323328 in S_i: [2.9384973064323328]
+Reference value: 2.94882060449647
+
+*********BETTER THAN HUMAN**********
+S_sub_64bit generations area:
+x: 4078.912 in S_i: [4078.912]
+Reference value: 4091.424
+
+*********BETTER THAN HUMAN**********
+S_comparator_3bit generations area:
+x: 102.5984 in S_i: [102.5984]
+Reference value: 105.1008
+
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations area:
+x: 1497.6864 in S_i: [1497.6864]
+Reference value: 3823.6672
+
+*********BETTER THAN HUMAN**********
+S_ring_counter generations area:
+x: 237.728 in S_i: [237.728]
+Reference value: 240.2304
+
+*********BETTER THAN HUMAN**********
+S_up_down_counter generations area:
+x: 1161.1136 in S_i: [1161.1136]
+Reference value: 1187.3888
+

@@ -1,0 +1,15 @@
+*********BAD VALUE**********
+S_RAM generations power:
+x: 0.0037178865168243647 in S_i: [0.0037178865168243647]
+Reference value: 0.0006231274455785751
+
+*********BAD VALUE**********
+S_RAM generations performance:
+x: 10.553759720419189 in S_i: [10.553759720419189]
+Reference value: 4.15144930183068
+
+*********BAD VALUE**********
+S_RAM generations area:
+x: 24748.736 in S_i: [24748.736]
+Reference value: 3570.9248
+

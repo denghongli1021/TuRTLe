@@ -1,0 +1,22 @@
+{
+  "RTL-Coder-27k": {
+    "total": 26532,
+    "valid": 15909,
+    "invalid": 10623
+  },
+  "RTL-Coder_small": {
+    "total": 2649,
+    "valid": 2395,
+    "invalid": 254
+  },
+  "CodeV-All": {
+    "total": 165340,
+    "valid": 164352,
+    "invalid": 988
+  },
+  "VeriGen-GitHub-Corpus": {
+    "total": 108971,
+    "valid": 43253,
+    "invalid": 65718
+  }
+}
