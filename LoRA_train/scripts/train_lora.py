@@ -39,6 +39,7 @@ def parse_args():
     p.add_argument("--data", default="../alpaca_format.jsonl", help="Path to the alpaca-format JSONL")
     p.add_argument("--base_model", default="Qwen/Qwen2.5-Coder-7B-Instruct")
     p.add_argument("--output_dir", default="../checkpoints/qwen2.5-coder-7b-rtl-lora")
+    p.add_argument("--data_fraction", type=float, default=1.0, help="Randomly sample this fraction (0-1] of the training data before splitting off eval. Use this to control total training time -- e.g. 0.05 for a fast ~9k-row run.")
     p.add_argument("--max_length", type=int, default=1024, help="Verilog modules are usually short; raise if you see truncation warnings and have VRAM to spare")
     p.add_argument("--lora_r", type=int, default=16)
     p.add_argument("--lora_alpha", type=int, default=32)
@@ -115,6 +116,11 @@ def main():
     model.print_trainable_parameters()
 
     dataset = load_dataset("json", data_files=args.data, split="train")
+    if args.data_fraction < 1.0:
+        total = len(dataset)
+        n = max(1, int(total * args.data_fraction))
+        dataset = dataset.shuffle(seed=args.seed).select(range(n))
+        print(f"--data_fraction={args.data_fraction}: sampled {n} / {total} rows for training+eval")
     dataset = dataset.map(lambda ex: format_example(ex, tokenizer), remove_columns=dataset.column_names)
     split = dataset.train_test_split(test_size=args.eval_fraction, seed=args.seed)
     train_dataset, eval_dataset = split["train"], split["test"]

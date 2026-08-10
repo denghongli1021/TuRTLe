@@ -50,10 +50,41 @@ python3 train_lora.py
 LoRA adapter 會存在 `--output_dir` 底下的 `final/` 資料夾（預設 `LoRA_train/checkpoints/qwen2.5-coder-7b-rtl-lora/final/`）。這只是 adapter 權重（幾十到幾百 MB），不是完整模型，推論時有兩種用法：
 
 1. **用 `peft` 動態載入**：base model + `PeftModel.from_pretrained(base_model, adapter_path)`，不用合併，方便切換/比較不同 adapter。
-2. **合併成完整模型**（`merge_and_unload()`）：適合要匯出成 GGUF 給 Ollama 用的情境——之後如果你想讓微調後的模型也能像 qwen2.5-coder:7b 一樣透過 Ollama 跑 TuRTLe 評測，就需要這一步 + 額外轉檔（`llama.cpp` 的 convert 腳本）。這支腳本目前**沒有**做合併/轉檔，只到存 adapter 為止。
+2. **合併成完整模型，匯出成 Ollama 可用的 GGUF**：見下方「合併 + 匯出到 Ollama」，已經寫好且驗證過整條流程能跑。
+
+### 合併 + 匯出到 Ollama
+
+分三步，前兩支腳本已經用 smoke test（0.5B 模型）完整跑過並驗證正確，第三步也實際用 `ollama run` 確認生成沒問題：
+
+**1. 合併 LoRA adapter 回底模** —— [`scripts/merge_lora.py`](scripts/merge_lora.py)：
+```bash
+source ~/lora_train_venv/bin/activate
+cd /mnt/c/Users/dengh/Documents/code/TuRTLe/LoRA_train/scripts
+python3 merge_lora.py \
+    --base_model Qwen/Qwen2.5-Coder-7B-Instruct \
+    --adapter ../checkpoints/qwen2.5-coder-7b-rtl-lora/final \
+    --output ../merged/qwen2.5-coder-7b-rtl
+```
+這步會用 bf16（非 4-bit）重新載入底模跟 adapter 合併，存成一份完整的 HuggingFace 格式模型。腳本裡有個必要的相容性修補：這個環境的 `transformers`（5.x）存 `tokenizer_config.json` 時，`extra_special_tokens` 欄位是存成 list，但下一步 `llama.cpp` 轉檔腳本用的是它自己 pin 死的 `transformers==4.57.6`，讀到 list 格式的這個欄位會直接噴 `AttributeError: 'list' object has no attribute 'keys'`（這是我們兩邊 transformers 版本不同造成的真實 bug，不是猜測）。`merge_lora.py` 存檔後會自動把這個欄位移除來避免這個問題。
+
+**2 + 3. 轉 GGUF、量化、註冊進 Ollama** —— [`scripts/export_to_ollama.ps1`](scripts/export_to_ollama.ps1)（**在 PowerShell 執行，不是 WSL**，因為 `ollama` 指令只裝在 Windows 端）：
+```powershell
+.\LoRA_train\scripts\export_to_ollama.ps1 `
+    -MergedModelDir "LoRA_train\merged\qwen2.5-coder-7b-rtl" `
+    -OllamaModelName "qwen2.5-coder-7b-rtl" `
+    -QuantType "Q4_K_M"
+```
+這支腳本內部會自動呼叫 WSL 做轉檔（用 `~/llama.cpp/convert_hf_to_gguf.py`）跟量化（用 `~/llama.cpp/build/bin/llama-quantize`，量化成跟你現在 Ollama 上的 `qwen2.5-coder:7b` 一樣的 Q4_K_M），再寫一個 `Modelfile`（帶上跟訓練時一致的 system prompt）並執行 `ollama create`。跑完就能：
+```bash
+ollama run qwen2.5-coder-7b-rtl
+```
+或直接把 `qwen2.5-coder-7b-rtl` 當作模型名稱傳給 `run_turtle.sh`，接回原本的評測流程。
+
+**環境需求**：這一步需要 `~/llama.cpp`（WSL 裡，已 clone 並用 cmake 建置好 `llama-quantize`）跟一個獨立的 `~/gguf_convert_venv`（WSL 裡，裝了 `llama.cpp` 自己 pin 死版本的 `transformers==4.57.6`）。**特意用獨立的 venv、不跟 `~/lora_train_venv` 共用**，因為兩邊的 `transformers` 版本互相衝突（訓練要新版 5.x 的 API，`llama.cpp` 轉檔腳本鎖死舊版 4.57.6），混在同一個 venv 裡裝，其中一邊一定會被降級/升級到不相容的版本。
 
 ## 已知風險 / 尚未處理的部分
 
 - 只做了單輪 SFT，沒有實作我們之前討論的「自我修正 + 迭代 LoRA」那整套閉環（生成失敗題目 → 收集 error → 再訓練）——這支腳本是那個更大架構裡「一輪訓練」的積木，不是完整流程。
 - 沒有處理 `alpaca_format.jsonl` 跟 TuRTLe benchmark 之間潛在的資料重疊（見上方說明）。
 - 8GB VRAM 真的偏緊，如果 smoke test 就 OOM，下一步應該考慮換 3B 級模型（如 Qwen2.5-Coder-3B-Instruct）而不是持續調參數硬做。
+- `merge_lora.py` 用 bf16 載入 7B 模型是純 CPU 操作（`device_map="cpu"`），會佔用不少系統記憶體（7B bf16 約 14GB RAM）且比 GPU 慢，但這是一次性的離線步驟，換取避免從 4-bit 直接 merge 可能損失的精度。

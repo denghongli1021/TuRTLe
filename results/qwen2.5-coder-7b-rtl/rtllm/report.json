@@ -1,0 +1,143 @@
+{
+    "multi_8bit": {
+        "generation_1": false
+    },
+    "multi_pipe_8bit": {
+        "generation_1": false
+    },
+    "booth4_mul": {
+        "generation_1": true
+    },
+    "multi_16bit": {
+        "generation_1": false
+    },
+    "sub_64bit": {
+        "generation_1": true
+    },
+    "comparator_4bit": {
+        "generation_1": false
+    },
+    "comparator_3bit": {
+        "generation_1": true
+    },
+    "fixed_point_substractor": {
+        "generation_1": true
+    },
+    "float_multi": {
+        "generation_1": false
+    },
+    "fixed_point_adder": {
+        "generation_1": false
+    },
+    "div_16bit": {
+        "generation_1": false
+    },
+    "adder_64bit": {
+        "generation_1": false
+    },
+    "adder_32bit": {
+        "generation_1": false
+    },
+    "adder_16bit": {
+        "generation_1": false
+    },
+    "adder_bcd": {
+        "generation_1": false
+    },
+    "adder_8bit": {
+        "generation_1": false
+    },
+    "accu": {
+        "generation_1": false
+    },
+    "sequence_detector": {
+        "generation_1": false
+    },
+    "fsm": {
+        "generation_1": false
+    },
+    "JC_counter": {
+        "generation_1": false
+    },
+    "ring_counter": {
+        "generation_1": true
+    },
+    "up_down_counter": {
+        "generation_1": true
+    },
+    "counter_12": {
+        "generation_1": true
+    },
+    "barrel_shifter": {
+        "generation_1": false
+    },
+    "LFSR": {
+        "generation_1": false
+    },
+    "right_shifter": {
+        "generation_1": true
+    },
+    "LIFObuffer": {
+        "generation_1": false
+    },
+    "square_wave": {
+        "generation_1": true
+    },
+    "signal_generator": {
+        "generation_1": false
+    },
+    "edge_detect": {
+        "generation_1": false
+    },
+    "calendar": {
+        "generation_1": true
+    },
+    "parallel2serial": {
+        "generation_1": false
+    },
+    "pulse_detect": {
+        "generation_1": false
+    },
+    "traffic_light": {
+        "generation_1": false
+    },
+    "width_8to16": {
+        "generation_1": false
+    },
+    "synchronizer": {
+        "generation_1": true
+    },
+    "serial2parallel": {
+        "generation_1": false
+    },
+    "pe": {
+        "generation_1": true
+    },
+    "instr_reg": {
+        "generation_1": true
+    },
+    "ROM": {
+        "generation_1": true
+    },
+    "clkgenerator": {
+        "generation_1": false
+    },
+    "alu": {
+        "generation_1": false
+    },
+    "RAM": {
+        "generation_1": true
+    },
+    "freq_divbyeven": {
+        "generation_1": false
+    },
+    "freq_divbyfrac": {
+        "generation_1": false
+    },
+    "freq_div": {
+        "generation_1": false
+    },
+    "freq_divbyodd": {
+        "generation_1": false
+    }
+}

@@ -24,6 +24,8 @@ LoRA_train/merged_valid.jsonl
 LoRA_train/alpaca_format.jsonl
 LoRA_train/raw_code_pretrain.jsonl
 LoRA_train/checkpoints/
+LoRA_train/merged/
+LoRA_train/gguf_export/
 
 
 # Logs

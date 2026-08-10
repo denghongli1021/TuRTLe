@@ -54,6 +54,10 @@ LoRA 的核心概念來自數學上的矩陣低秩分解（Low-Rank Decompositio
 | 訓練後產物 | 完整的模型檔案 (幾 GB ~ 幾十 GB) | 輕量級外掛檔 (幾十 MB ~ 幾百 MB) |
 | 部署靈活性 | 切換任務需載入整個新模型 | 原模型不變，隨時替換或疊加不同的 LoRA |
 
+流程是：Qwen2.5-Coder-7B-Instruct（原版）→ LoRA 訓練 → merge_lora.py 合併回原版權重 
+→ 量化成 Q4_K_M → 註冊成 qwen2.5-coder-7b-rtl
+
+
 
 
 usage: turtle.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]] [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]

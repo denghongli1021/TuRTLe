@@ -1,0 +1,50 @@
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations power:
+x: 0.00026745651848614216 in S_i: [0.00026745651848614216]
+Reference value: 0.0003324878343846649
+
+*********BETTER THAN HUMAN**********
+S_up_down_counter generations power:
+x: 0.0003269815933890641 in S_i: [0.0003269815933890641]
+Reference value: 0.0003272691392339766
+
+*********BETTER THAN HUMAN**********
+S_instr_reg generations power:
+x: 0.00010382076288806275 in S_i: [0.00010382076288806275]
+Reference value: 0.00013166091230232269
+
+*********BETTER THAN HUMAN**********
+S_sub_64bit generations performance:
+x: 8.307021750046824 in S_i: [8.307021750046824]
+Reference value: 8.415343993177013
+
+*********BETTER THAN HUMAN**********
+S_comparator_3bit generations performance:
+x: 5.064925733294002 in S_i: [5.064925733294002]
+Reference value: 5.56084860565421
+
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations performance:
+x: 7.335684045617289 in S_i: [7.335684045617289]
+Reference value: 8.377053732242398
+
+*********BETTER THAN HUMAN**********
+S_sub_64bit generations area:
+x: 4078.912 in S_i: [4078.912]
+Reference value: 4091.424
+
+*********BETTER THAN HUMAN**********
+S_comparator_3bit generations area:
+x: 102.5984 in S_i: [102.5984]
+Reference value: 105.1008
+
+*********BETTER THAN HUMAN**********
+S_fixed_point_substractor generations area:
+x: 2805.1904 in S_i: [2805.1904]
+Reference value: 3823.6672
+
+*********BETTER THAN HUMAN**********
+S_up_down_counter generations area:
+x: 1161.1136 in S_i: [1161.1136]
+Reference value: 1187.3888
+
