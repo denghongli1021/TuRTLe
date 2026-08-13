@@ -58,6 +58,13 @@ Write-Host "==> [2/3] Quantizing to $QuantType..."
 wsl.exe -e bash -lc "~/llama.cpp/build/bin/llama-quantize '$F16Gguf' '$QuantGguf' $QuantType"
 if ($LASTEXITCODE -ne 0) { throw "llama-quantize failed" }
 
+# The f16 GGUF is a ~15GB intermediate that's never needed again once
+# quantization succeeds -- this disk ran out of space twice from letting
+# these pile up alongside the merged HF model, so clean up as we go now.
+$F16GgufWin = Join-Path $GgufDir "model-f16.gguf"
+Remove-Item -Path $F16GgufWin -Force -ErrorAction SilentlyContinue
+Write-Host "(removed intermediate f16 GGUF to free disk space)"
+
 Write-Host "==> [3/3] Registering with Ollama as '$OllamaModelName'..."
 $SystemPrompt = "You are an expert Verilog/SystemVerilog RTL designer. Given a design specification, respond with only the complete Verilog module."
 $ModelfilePath = Join-Path $GgufDir "Modelfile"
