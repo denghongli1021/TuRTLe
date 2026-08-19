@@ -52,7 +52,9 @@ def parse_args():
     p.add_argument("--eval_fraction", type=float, default=0.02, help="Fraction of data held out as eval (never trained on)")
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--logging_steps", type=int, default=10)
-    p.add_argument("--save_steps", type=int, default=200)
+    p.add_argument("--save_steps", type=int, default=200, help="Checkpoint frequency. Lower this on long runs to cap how much progress a crash can lose.")
+    p.add_argument("--eval_steps", type=int, default=200, help="Eval frequency. Kept separate from --save_steps since each eval pass costs several minutes -- lowering save_steps for crash-safety shouldn't multiply eval overhead too.")
+    p.add_argument("--resume_from_checkpoint", default=None, help="Path to a checkpoint-N directory (e.g. ../checkpoints/.../checkpoint-200) to resume an interrupted run from.")
     return p.parse_args()
 
 
@@ -143,7 +145,7 @@ def main():
         save_steps=args.save_steps,
         save_total_limit=3,
         eval_strategy="steps",
-        eval_steps=args.save_steps,
+        eval_steps=args.eval_steps,
         report_to="none",
         seed=args.seed,
         dataset_text_field="text",
@@ -158,7 +160,7 @@ def main():
         processing_class=tokenizer,
     )
 
-    trainer.train()
+    trainer.train(resume_from_checkpoint=args.resume_from_checkpoint)
 
     final_dir = os.path.join(args.output_dir, "final")
     trainer.model.save_pretrained(final_dir)
